@@ -6,7 +6,7 @@
 head:
     favicon: "/img/favicon.png"
     keywords: ZSSAER
-    backgroundpic : "img/1.jpg"
+    backgroundpic : "https://zssaer-img.oss-cn-chengdu.aliyuncs.com/keith-misner-h0Vxgz5tyXA-unsplash.jpg"
 
 Intro:
     name: ZSSAER
@@ -60,12 +60,12 @@ fonts: FZLTCXHJW, "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB"
 # Available value of "use":
 #     duoshuo | disqus | disqus_click | changyan
 comment:
-    use: disqus_click
+    use: changyan
     shortname: http-miccall-tech 
     duoshuo_thread_key_type: path
     duoshuo_embed_js_url: "https://static.duoshuo.com/embed.js"
-    changyan_appid:
-    changyan_conf:
+    changyan_appid: cyvzq2tmJ
+    changyan_conf: e61bcf9ca7baef66559e7e33e21fe290
     changyan_thread_key_type: path
     # 使用 valine 请先执行 npm install valine --save
     valine: # Valine Comment System https://github.com/xCss/Valine
@@ -83,7 +83,7 @@ comment:
 # Available value:
 #     swiftype | google | local
 search:
-    use: google
+    use: local
     swiftype_key: Just another fine responsive  
     
 

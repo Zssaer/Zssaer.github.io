@@ -1914,7 +1914,16 @@
 			border-bottom-color: inherit;
 		}
 
+		#busuanzi_container_site_pv{
+			color: #005CAF;
+		}
+
+		#busuanzi_value_site_pv{
+			color: #D0104C;
+		}
+
 		#copyright ul {
+			color: #006284;
 			list-style: none;
 			margin: 0;
 			padding-left: 0;
