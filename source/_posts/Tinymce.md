@@ -1,10 +1,10 @@
 ---
-    title:  Axios异步通讯快速教程 # 文章标题  
-    date: 2021/7/23 13:48:25  # 文章发表时间
+    title:  TinyMCE富文本编辑器 # 文章标题  
+    date: 2021/7/26 13:48:25  # 文章发表时间
     tags:
     - 前端
     categories: 前端 # 分类
-    thumbnail: https://zssaer-img.oss-cn-chengdu.aliyuncs.com/tiny7.png # 略缩图
+    thumbnail: https://zssaer-img.oss-cn-chengdu.aliyuncs.com/JrAJTf-aHsc.jpg?x-oss-process=style/small # 略缩图
 ---
 # TinyMCE富文本编辑器
 TinyMCE是一款易用、且功能强大的所见即所得的可跨平台富文本编辑器。同类程序有：UEditor、Kindeditor、Simditor、CKEditor、wangEditor、Suneditor、froala等等。

@@ -5,12 +5,12 @@
 # Head info
 head:
     favicon: "/img/favicon.png"
-    keywords: ZSSAER
-    backgroundpic : "https://zssaer-img.oss-cn-chengdu.aliyuncs.com/keith-misner-h0Vxgz5tyXA-unsplash.jpg"
+    keywords: Zssaer
+    backgroundpic : "https://zssaer-img.oss-cn-chengdu.aliyuncs.com/iMfVZxOQnBI.jpg?x-oss-process=style/wallpaper"
 
 Intro:
-    name: ZSSAER
-    slogan: "思而后动,论而后行 <br/>-《大戴礼记·曾子立事》"
+    name: Zssaer
+    slogan: "止まるんじゃねぇぞ <br/>-不要停下来啊"
     HeadButton: Refrain
 
 Nav:
@@ -37,7 +37,7 @@ Nav:
 MainFirst:
     name: ZHAO TIANYI
     description: TECHNICAL MEMBER OF THE BOTTOM OF SOCIETY
-    pic_url: /images/me.jpg
+    pic_url: 'https://zssaer-img.oss-cn-chengdu.aliyuncs.com/me.jpg?x-oss-process=style/small'
     goto_ulr: "/about/"
 
 Gallery :
