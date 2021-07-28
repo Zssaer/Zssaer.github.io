@@ -111,7 +111,7 @@ prism_plugin:
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repo: https://github.com/Zssaer/Zssaer.github.io.git
+  repo: git@github.com:Zssaer/Zssaer.github.io.git
   branch: master
 
 live2d:
