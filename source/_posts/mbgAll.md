@@ -1,5 +1,5 @@
 ---
-    title:MBG配合TK.mybatis和freemarker生成SSM框架  # 文章标题  
+    title: MBG配合TK.mybatis和freemarker生成SSM框架  # 文章标题  
     date: 2021/07/29 17:46:37
     tags:
     - JAVA
