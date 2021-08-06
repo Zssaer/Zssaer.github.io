@@ -41,8 +41,8 @@ MainFirst:
     goto_ulr: "/about/"
 
 Gallery :
-    title: Mr.Zhao
-    description: Make more fine responsive 
+    title: 图库中心
+    description: 图库图片版权归互联网
 
 # ---------------------------------------------------------------
 # Style Settings
