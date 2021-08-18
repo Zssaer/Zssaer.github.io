@@ -4,7 +4,7 @@
     tags:
     - 后端
     categories: 后端 # 分类
-    thumbnail: https://zssaer-img.oss-cn-chengdu.aliyuncs.com/dockerlogo.jpg # 略缩图
+    thumbnail: https://zssaer.oss-cn-chengdu.aliyuncs.com/dockerlogo.jpg # 略缩图
 ---
 <h1 align = "center"> Docker入门教程(二)</h1>
 
@@ -12,7 +12,7 @@
 
 Docker中的容器数据分为下列关系:
 
-![](https://zssaer-img.oss-cn-chengdu.aliyuncs.com/types-of-mounts.cd09b2d7.png)
+![](https://zssaer.oss-cn-chengdu.aliyuncs.com/types-of-mounts.cd09b2d7.png)
 
 - 数据卷（Volumes）
 - 挂载主机目录 (Bind mounts)

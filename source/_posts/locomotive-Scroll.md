@@ -4,7 +4,7 @@
     tags:
     - 前端
     categories: 前端 # 分类
-    thumbnail: https://zssaer-img.oss-cn-chengdu.aliyuncs.com//chris-ried-ieic5Tq8YMk-unsplash.jpg # 略缩图
+    thumbnail: https://zssaer.oss-cn-chengdu.aliyuncs.com//chris-ried-ieic5Tq8YMk-unsplash.jpg # 略缩图
 ---
 
 <h1 align = "center">Locomotive Scroll(视差滚动)</h1>

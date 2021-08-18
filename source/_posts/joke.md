@@ -4,7 +4,7 @@
     tags:
     - 杂谈
     categories: 杂谈 # 分类
-    thumbnail: https://zssaer-img.oss-cn-chengdu.aliyuncs.com/cKyy2ZR9ucQ.jpg?x-oss-process=style/small # 略缩图
+    thumbnail: https://zssaer.oss-cn-chengdu.aliyuncs.com/cKyy2ZR9ucQ.jpg?x-oss-process=style/small # 略缩图
 ---
 # 国王征婚
 在很久很久以前，

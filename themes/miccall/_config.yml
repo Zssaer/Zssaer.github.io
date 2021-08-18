@@ -6,7 +6,7 @@
 head:
     favicon: "/img/favicon.png"
     keywords: Zssaer
-    backgroundpic : "https://zssaer-img.oss-cn-chengdu.aliyuncs.com/iMfVZxOQnBI.jpg?x-oss-process=style/wallpaper"
+    backgroundpic : "https://zssaer.oss-cn-chengdu.aliyuncs.com/1.jpg?x-oss-process=style/wallpaper"
 
 Intro:
     name: Zssaer
@@ -37,7 +37,7 @@ Nav:
 MainFirst:
     name: ZHAO TIANYI
     description: TECHNICAL MEMBER OF THE BOTTOM OF SOCIETY
-    pic_url: 'https://zssaer-img.oss-cn-chengdu.aliyuncs.com/me.jpg?x-oss-process=style/small'
+    pic_url: 'https://zssaer.oss-cn-chengdu.aliyuncs.com/me.jpg?x-oss-process=style/small'
     goto_ulr: "/about/"
 
 Gallery :

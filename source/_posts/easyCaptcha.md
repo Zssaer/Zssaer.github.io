@@ -4,7 +4,7 @@
     tags:
     - JAVA
     categories: JAVA # 分类
-    thumbnail: https://zssaer-img.oss-cn-chengdu.aliyuncs.com/hope.png # 略缩图
+    thumbnail: https://zssaer.oss-cn-chengdu.aliyuncs.com/hope.png # 略缩图
 ---
 <h1 align = "center">EasyCaptcha-快速生成图像验证码</h1>
 

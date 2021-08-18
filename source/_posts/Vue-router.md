@@ -4,7 +4,7 @@
     tags:
     - 前端
     categories: 前端 # 分类
-    thumbnail: https://zssaer-img.oss-cn-chengdu.aliyuncs.com//vueRouter.jpg # 略缩图
+    thumbnail: https://zssaer.oss-cn-chengdu.aliyuncs.com//vueRouter.jpg # 略缩图
 
 
 ---
@@ -15,7 +15,7 @@
 
 由于Vue中是动态生成的页面,所以在链接上不可以使用url来进行跳转,这时跳转应该使用Router功能.
 
-![](https://zssaer-img.oss-cn-chengdu.aliyuncs.com//vuerouter2.png)
+![](https://zssaer.oss-cn-chengdu.aliyuncs.com//vuerouter2.png)
 
 ## 官方简绍
 
