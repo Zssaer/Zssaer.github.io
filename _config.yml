@@ -113,6 +113,19 @@ deploy:
   type: git
   repo: git@github.com:Zssaer/Zssaer.github.io.git
   branch: master
+  
+# 在hexo generate或hexo deploy之前使用hexo bangumi -u命令更新追番数据，使用hexo cinema -u命令更新追剧数据！
+bangumi: # 追番设置
+  enable: true
+  vmid: 30218876
+  title: '追番列表'
+  quote: '你瞧瞧现在哪有动漫呀,这都是大鹏里的动漫！'
+  show: 1
+  loading:
+  metaColor:
+  color:
+  webp:
+  progress:
 
 live2d:
   enable: true

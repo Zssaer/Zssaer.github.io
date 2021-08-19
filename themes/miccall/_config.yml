@@ -31,6 +31,8 @@ Nav:
             link: "/about/"
         图库 :
             link: "/gallery/"
+        动漫番剧 :
+            link: "/bangumis/"    
         #自定义标签名
         #   link：“路径”
 
