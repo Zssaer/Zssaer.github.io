@@ -6,11 +6,11 @@
 head:
     favicon: "/img/favicon.png"
     keywords: Zssaer
-    backgroundpic : "https://zssaer.oss-cn-chengdu.aliyuncs.com/1.jpg?x-oss-process=style/wallpaper"
+    backgroundpic : "https://zssaer.oss-cn-chengdu.aliyuncs.com/mohammad-metri-1oKxSKSOowE-unsplash.jpg?x-oss-process=style/wallpaper"
 
 Intro:
     name: Zssaer
-    slogan: "止まるんじゃねぇぞ <br/>-不要停下来啊"
+    slogan: "止まるんじゃねぇぞ"
     HeadButton: Refrain
 
 Nav:

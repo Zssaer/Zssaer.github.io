@@ -118,8 +118,8 @@ deploy:
 bangumi: # 追番设置
   enable: true
   vmid: 30218876
-  title: '追番列表'
-  quote: '你瞧瞧现在哪有动漫呀,这都是大鹏里的动漫！'
+  title: '你瞧瞧现在哪有动漫呀,这都是大鹏里的动漫！'
+  quote: 
   show: 1
   loading:
   metaColor:
