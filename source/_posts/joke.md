@@ -7,6 +7,7 @@
     thumbnail: https://zssaer.oss-cn-chengdu.aliyuncs.com/cKyy2ZR9ucQ.jpg?x-oss-process=style/small # 略缩图
 ---
 # 国王征婚
+
 在很久很久以前，
 有一个国王。
 他把他的国家治理的非常好，
