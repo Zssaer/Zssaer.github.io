@@ -4,56 +4,56 @@
 
 # Head info
 head:
-    favicon: "/img/favicon.png"
-    keywords: Zssaer
-    backgroundpic : "https://zssaer.oss-cn-chengdu.aliyuncs.com/wallhaven-3z2rvy.jpg?x-oss-process=style/wallpaper"
+  favicon: "/img/favicon.png"
+  keywords: Zssaer
+  backgroundpic: "https://zssaer.oss-cn-chengdu.aliyuncs.com/wallhaven-m9o9k1.jpg?x-oss-process=style/wallpaper"
 
 Intro:
-    name: Zssaer
-    slogan: "止まるんじゃねぇぞ"
-    HeadButton: Refrain
+  name: Zssaer
+  slogan: "“奶奶滴，给我玩阴的是吧。”“这事我就不演了，我就是大名鼎鼎重庆菌桶和大日本料理高级特工，代号穿山甲。”"
+  HeadButton: Refrain
 
 Nav:
-    Home_name: 主页
-    is_use_categories : true 
-    categories_name: 分类
-    is_use_archives : false
-    archives_name: 归档
-    
-    #Social
-    # for more icons, please see http://fontawesome.io/icons/#brand
-    icon:
-        github: https://github.com/Zssaer
-        500px: http://500px.com
-        bookmark: https://gitee.com/Zssaer01
-    pages:
-        关于我: 
-            link: "/about/"
-        图库 :
-            link: "/gallery/"
-        动漫番剧 :
-            link: "/bangumis/"    
-        #自定义标签名
-        #   link：“路径”
+  Home_name: 主页
+  is_use_categories: true
+  categories_name: 分类
+  is_use_archives: false
+  archives_name: 归档
+
+  #Social
+  # for more icons, please see http://fontawesome.io/icons/#brand
+  icon:
+    github: https://github.com/Zssaer
+    500px: http://500px.com
+    bookmark: https://gitee.com/Zssaer01
+  pages:
+    关于我:
+      link: "/about/"
+    图库:
+      link: "/gallery/"
+    动漫番剧:
+      link: "/bangumis/"
+    #自定义标签名
+    #   link：“路径”
 
 MainFirst:
-    name: ZHAO TIANYI
-    description: TECHNICAL MEMBER OF THE BOTTOM OF SOCIETY
-    pic_url: 'https://zssaer.oss-cn-chengdu.aliyuncs.com/me.jpg?x-oss-process=style/small'
-    goto_ulr: "/about/"
+  name: TIANYI ZHAO
+  description: TECHNICAL MEMBER OF THE BOTTOM OF SOCIETY
+  pic_url: "https://zssaer.oss-cn-chengdu.aliyuncs.com/me.jpg?x-oss-process=style/small"
+  goto_ulr: "/about/"
 
-Gallery :
-    title: 图库中心
-    description: 图库图片版权归互联网
+Gallery:
+  title: 图库中心
+  description: 图库图片版权归互联网
 
 # ---------------------------------------------------------------
 # Style Settings
 # ---------------------------------------------------------------
 
-# Custom code Render System 自定义代码渲染 
-# default dark funky okaidia twilight coy solarized  可选项  
+# Custom code Render System 自定义代码渲染
+# default dark funky okaidia twilight coy solarized  可选项
 # link to review : http://prismjs.com/index.html   官网预览
-prism:  coy
+prism: coy
 
 # Custom Fonts
 fonts: FZLTCXHJW, "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "FZLTCXHJW", Arial, sans-serif
@@ -62,49 +62,47 @@ fonts: FZLTCXHJW, "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB"
 # Available value of "use":
 #     duoshuo | disqus | disqus_click | changyan
 comment:
-    use: changyan
-    shortname: http-miccall-tech 
-    duoshuo_thread_key_type: path
-    duoshuo_embed_js_url: "https://static.duoshuo.com/embed.js"
-    changyan_appid: cyvzq2tmJ
-    changyan_conf: e61bcf9ca7baef66559e7e33e21fe290
-    changyan_thread_key_type: path
-    # 使用 valine 请先执行 npm install valine --save
-    valine: # Valine Comment System https://github.com/xCss/Valine
-       on: true
-       appId: 'your appId'
-       appKey: 'your appkey'
-       notify: true
-       verify: false
-       placeholder: Please leave your footprints
-       avatar: ''
-       avatar_cdn: https://gravatar.loli.net/avatar/ # avatar CDN address, default gravatar.loli.net
-       pageSize: 10 # comments of one page
+  use: changyan
+  shortname: http-miccall-tech
+  duoshuo_thread_key_type: path
+  duoshuo_embed_js_url: "https://static.duoshuo.com/embed.js"
+  changyan_appid: cyvzq2tmJ
+  changyan_conf: e61bcf9ca7baef66559e7e33e21fe290
+  changyan_thread_key_type: path
+  # 使用 valine 请先执行 npm install valine --save
+  valine: # Valine Comment System https://github.com/xCss/Valine
+    on: true
+    appId: "your appId"
+    appKey: "your appkey"
+    notify: true
+    verify: false
+    placeholder: Please leave your footprints
+    avatar: ""
+    avatar_cdn: https://gravatar.loli.net/avatar/ # avatar CDN address, default gravatar.loli.net
+    pageSize: 10 # comments of one page
 
 # Search Systems
 # Available value:
 #     swiftype | google | local
 search:
-    use: local
-    swiftype_key: Just another fine responsive  
-    
+  use: local
+  swiftype_key: Just another fine responsive
 
 # Leancloud Views
 leancloud:
-    enable: false
-    app_id: #你的 app_id
-    app_key: #你的 app_key
-    av_core_mini: "https://cdn1.lncld.net/static/js/av-core-mini-0.6.1.js"
+  enable: false
+  app_id: #你的 app_id
+  app_key: #你的 app_key
+  av_core_mini: "https://cdn1.lncld.net/static/js/av-core-mini-0.6.1.js"
 
 # Busuanzi 不蒜子 Views
 busuanzi:
-    enable: true
-    all_site_uv: true
-    post_pv: true
-    busuanzi_pure_mini_js: "https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"
+  enable: true
+  all_site_uv: true
+  post_pv: true
+  busuanzi_pure_mini_js: "https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"
 
-
-# Mathjax 支持库 
+# Mathjax 支持库
 mathjax:
   enable: true
   per_page: false
