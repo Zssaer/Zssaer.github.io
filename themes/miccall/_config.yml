@@ -5,12 +5,12 @@
 # Head info
 head:
   favicon: "/img/favicon.png"
-  keywords: Zssaer
-  backgroundpic: "https://zssaer.oss-cn-chengdu.aliyuncs.com/wallhaven-m9o9k1.jpg?x-oss-process=style/wallpaper"
+  keywords: Zssaer JavaWeb
+  backgroundpic: "https://zssaer.oss-cn-chengdu.aliyuncs.com//1.jpg?x-oss-process=style/wallpaper"
 
 Intro:
   name: Zssaer
-  slogan: "“奶奶滴，给我玩阴的是吧。”“这事我就不演了，我就是大名鼎鼎重庆菌桶和大日本料理高级特工，代号穿山甲。”"
+  slogan: "“为什么不学！学！不学？不学，我就扎嗣你ヽ(･ω･´ﾒ)”“奶奶的，给我玩阴的是吧！来~吧~(╬￣皿￣)”"
   HeadButton: Refrain
 
 Nav:
@@ -24,8 +24,7 @@ Nav:
   # for more icons, please see http://fontawesome.io/icons/#brand
   icon:
     github: https://github.com/Zssaer
-    500px: http://500px.com
-    bookmark: https://gitee.com/Zssaer01
+    git: https://gitee.com/Zssaer01
   pages:
     关于我:
       link: "/about/"
