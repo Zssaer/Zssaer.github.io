@@ -1,10 +1,7 @@
-<footer style="text-align: center; padding-top: 2em;">
+<footer style="text-align: center; padding-top: 2em">
   <% if (page.total > 1){ %>
-    <div class="pagination" >
-        <%- paginator({
-            prev_text: "pre",
-            next_text: "nex"
-        }) %>
-    </div>  
-    <% } %>
+  <div class="pagination">
+    <%- paginator({ prev_text: "prev", next_text: "next" }) %>
+  </div>
+  <% } %>
 </footer>

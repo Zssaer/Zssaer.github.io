@@ -2,9 +2,9 @@
     title: Java-Reflection(JAVA反射)汇总 # 文章标题  
     date: 2021/11/01 17:41:32
     tags:
-    - JAVA   https://zssaer.oss-cn-chengdu.aliyuncs.com
+    - JAVA
     categories: JAVA # 分类
-    thumbnail: https://zssaer.oss-cn-chengdu.aliyuncs.com/wallhaven-j3dkqq.jpg?x-oss-process=style/wallpaper # 略缩图
+    thumbnail: https://zssaer.oss-cn-chengdu.aliyuncs.com//chris-ried-ieic5Tq8YMk-unsplash.jpg?x-oss-process=style/wallpaper # 略缩图
 ---
 
 # Java-Reflection(JAVA反射)汇总

@@ -4,7 +4,7 @@
     tags:
     - JAVA
     categories: JAVA # 分类
-    thumbnail: https://zssaer.oss-cn-chengdu.aliyuncs.com/wallhaven-yjg8kk.png?x-oss-process=style/wallpaper # 略缩图 
+    thumbnail: https://zssaer.oss-cn-chengdu.aliyuncs.com/wallhaven-83dkk1.jpg?x-oss-process=style/wallpaper # 略缩图 
 ---
 <h1 align = "center">Shiro安全框架</h1>
 

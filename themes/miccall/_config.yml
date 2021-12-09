@@ -6,19 +6,19 @@
 head:
   favicon: "/img/favicon.png"
   keywords: Zssaer JavaWeb
-  backgroundpic: "https://zssaer.oss-cn-chengdu.aliyuncs.com//1.jpg?x-oss-process=style/wallpaper"
+  backgroundpic: "https://zssaer.oss-cn-chengdu.aliyuncs.com/wallhaven-39o9ov.jpg?x-oss-process=style/wallpaper"
 
 Intro:
   name: Zssaer
-  slogan: "“为什么不学！学！不学？不学，我就扎嗣你ヽ(･ω･´ﾒ)”“奶奶的，给我玩阴的是吧！来~吧~(╬￣皿￣)”"
+  slogan: "HELLO DARKNESS MY OLD FRIEND , I'VE COME TO TALK WITH YOU AGAIN."
   HeadButton: Refrain
 
 Nav:
-  Home_name: 主页
+  Home_name: Home
   is_use_categories: true
-  categories_name: 分类
+  categories_name: Categories
   is_use_archives: false
-  archives_name: 归档
+  archives_name: Arichives
 
   #Social
   # for more icons, please see http://fontawesome.io/icons/#brand
@@ -26,11 +26,11 @@ Nav:
     github: https://github.com/Zssaer
     git: https://gitee.com/Zssaer01
   pages:
-    关于我:
+    AboutMe:
       link: "/about/"
-    图库:
+    Wallpaper:
       link: "/gallery/"
-    动漫番剧:
+    Bangumis:
       link: "/bangumis/"
     #自定义标签名
     #   link：“路径”
