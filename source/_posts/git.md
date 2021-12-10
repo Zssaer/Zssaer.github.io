@@ -4,7 +4,7 @@
     tags:
     - 其他
     categories: 其他 # 分类
-    thumbnail: https://zssaer.oss-cn-chengdu.aliyuncs.com/gitLogo.png?x-oss-process=style/small # 略缩图
+    thumbnail: https://img.zssaer.cn/gitLogo.png?x-oss-process=style/small # 略缩图
 ---
 <h1 align = "center">Git版本管理快速入门</h1>
 
@@ -16,13 +16,13 @@
 
 分布式版本控制系统有很多,如SVN,Git,BitKeeper等等, 而在众多分布式版本控制系统中Git是目前最流行且方便的.而且它是开源的,使用不需要付费.
 
-![](https://zssaer.oss-cn-chengdu.aliyuncs.com/git.png)
+![](https://img.zssaer.cn/git.png)
 
 Git 是一个开源的分布式版本控制系统，用于敏捷高效地处理任何或小或大的项目,适合单人,多人合作开发。
 
 一些人初学Git时,肯定会想到大名鼎鼎的GitHub,并且将其挂接在一起,其实这是错误的.
 
-![](https://zssaer.oss-cn-chengdu.aliyuncs.com/gitIsNotGitHub.png)
+![](https://img.zssaer.cn/gitIsNotGitHub.png)
 
 Git是一种开源的代码版本控制**系统**,但它并不是版本控制**系统**的创始作,而创始人是Linus Torvalds(也就是Linux之父),他写Git的原因只是不满BitKeeper(当时流行的版本控制系统)的收费和闭源.要知道Linux系统的就是为开源而存在的,BitKeeper不开源自然Linux就不得放弃使用它,而这时为了解决Linux系统上的代码版本控制,Linus便自己写了一款开源的控制系统(不得不说,大神牛逼,全部自研!)
 
@@ -270,14 +270,14 @@ git commit -m [信息]
 
 另一种情况是，你只需要部分代码提交的变动（某几个提交），这时可以采用 `Cherry-pick`命令。
 
-<img src="https://zssaer.oss-cn-chengdu.aliyuncs.com/reachability-example.png" style="zoom:130%;" />
+<img src="https://img.zssaer.cn/reachability-example.png" style="zoom:130%;" />
 
 如果您目前在此图中的 H提交点,并输入了`git cherry-pick E[SHA]`,你将获取E提交点到H后面
 
-<img src="https://zssaer.oss-cn-chengdu.aliyuncs.com/cherry-pick-example-1.png" style="zoom:130%;" />
+<img src="https://img.zssaer.cn/cherry-pick-example-1.png" style="zoom:130%;" />
 
 同理,你可以连续获取并合并多个提交点,你输入类似`git cherry-pick C D E`，你会在完成后得到这个：
 
-<img src="https://zssaer.oss-cn-chengdu.aliyuncs.com/cherry-pick-example-2.png" style="zoom:130%;" />
+<img src="https://img.zssaer.cn/cherry-pick-example-2.png" style="zoom:130%;" />
 
 但其中C D E 必须是按由前到后的先后顺序来的,否则会合并会报错.

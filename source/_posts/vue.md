@@ -4,7 +4,7 @@
     tags:
     - 前端
     categories: 前端 # 分类
-    thumbnail: https://zssaer.oss-cn-chengdu.aliyuncs.com//vueLogo.jpg # 略缩图
+    thumbnail: https://img.zssaer.cn//vueLogo.jpg # 略缩图
 
 ---
 
@@ -16,7 +16,7 @@ Vue (读音 /vjuː/，类似于 **view**) 是一套用于构建用户界面的**
 
 Vue 的核心库只关注视图层，不仅易于上手，还便于与第三方库或既有项目整合。
 
-![Component Tree](https://zssaer.oss-cn-chengdu.aliyuncs.com//components.png)
+![Component Tree](https://img.zssaer.cn//components.png)
 
 另一方面，当与[现代化的工具链](https://cn.vuejs.org/v2/guide/single-file-components.html)以及各种[支持类库](https://github.com/vuejs/awesome-vue#libraries--plugins)结合使用时，Vue 也完全能够为复杂的单页应用提供驱动。
 
@@ -30,7 +30,7 @@ Vue 的核心库只关注视图层，不仅易于上手，还便于与第三方�
 
 在Node.js目录下新建**node_global**和**node_cache**两个文件夹
 
-<img src="https://zssaer.oss-cn-chengdu.aliyuncs.com//Mph5PrJiaSdI8qv.png" style="zoom: 80%;" />
+<img src="https://img.zssaer.cn//Mph5PrJiaSdI8qv.png" style="zoom: 80%;" />
 
 **三.设置缓存文件夹**
 
@@ -264,7 +264,7 @@ slot:可重复定义的组件
 </script>
 ```
 
-<img src="https://zssaer.oss-cn-chengdu.aliyuncs.com//slot.png" style="zoom:110%;" />
+<img src="https://img.zssaer.cn//slot.png" style="zoom:110%;" />
 
 在component中的template下<slot name="xxx"></slot>定义插槽.
 

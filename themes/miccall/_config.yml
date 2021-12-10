@@ -6,7 +6,7 @@
 head:
   favicon: "/img/favicon.png"
   keywords: Zssaer JavaWeb
-  backgroundpic: "https://zssaer.oss-cn-chengdu.aliyuncs.com/wallhaven-39o9ov.jpg?x-oss-process=style/wallpaper"
+  backgroundpic: "https://img.zssaer.cn/wallhaven-39o9ov.jpg?x-oss-process=style/wallpaper"
 
 Intro:
   name: Zssaer
@@ -38,7 +38,7 @@ Nav:
 MainFirst:
   name: TIANYI ZHAO
   description: TECHNICAL MEMBER OF THE BOTTOM OF SOCIETY
-  pic_url: "https://zssaer.oss-cn-chengdu.aliyuncs.com/me.jpg?x-oss-process=style/small"
+  pic_url: "https://img.zssaer.cn/me.jpg?x-oss-process=style/small"
   goto_ulr: "/about/"
 
 Gallery:
