@@ -1,4 +1,5 @@
 <body class="is-loading" lang="zh">
+  <div class="mask-border"></div>
   <!-- Wrapper 外包 s-->
   <div id="wrapper" class="fade-in overlay">
     <!-- Intro 头部显示 s -->
@@ -38,7 +39,7 @@
                   "
                 >
                   <!--标题-->
-                  <h2 class="page_title_text"><%= post.title %></h2>
+                  <!-- <h2 class="page_title_text"><%= post.title %></h2> -->
                   <!--段落-->
                 </div>
               </a>
@@ -54,13 +55,8 @@
                     <!-- Category -->
                     <span>
                       <h6>
-                        <a
-                          class="post_category-link"
-                          href="http://localhost:4000/categories/Algorithm/"
-                        >
-                          <%- list_categories(post.categories, { show_count:
-                          false, class: 'post_category', style: 'none' }) %></a
-                        >
+                        <a class="post_category-link"
+                        href="<%- url_for(post.path) %>"><%= post.title %></a>
                       </h6>
                     </span>
                   </div>
@@ -85,4 +81,5 @@
   </div>
   <!-- Wrapper 外包 e-->
   <!-- Scripts -->
+  <script src="/js/jquery.mCustomScrollbar.min.js"></script>
 </body>
