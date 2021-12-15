@@ -8,16 +8,16 @@
     xxsmall: "(max-width: 360px)",
   });
   
-  $(window).load(function(){
-    $("body").mCustomScrollbar({
-      axis:"y",
-      theme:"dark",
-      scrollButtons: { enable: true },
-      advanced:{
-        autoExpandHorizontalScroll:true //optional (remove or set to false for non-dynamic/static elements)
-      }
-    });
-  });
+  // $(window).load(function(){
+  //   $("body").mCustomScrollbar({
+  //     axis:"y",
+  //     theme:"dark",
+  //     scrollButtons: { enable: true },
+  //     advanced:{
+  //       autoExpandHorizontalScroll:true //optional (remove or set to false for non-dynamic/static elements)
+  //     }
+  //   });
+  // });
   /**
    * Applies parallax scrolling to an element's background image.
    * @return {jQuery} jQuery object.

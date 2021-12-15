@@ -2,7 +2,7 @@
     title: 压力测试工具-JMeter # 文章标题  
     date: 2021/08/23 10:02:04
     tags:
-    - 其他   https://img.zssaer.cn
+    - 其他
     categories: 其他 # 分类
     thumbnail: https://img.zssaer.cn/joshua-sortino-LqKhnDzSF-8-unsplash.jpg?x-oss-process=style/wallpaper # 略缩图
 ---

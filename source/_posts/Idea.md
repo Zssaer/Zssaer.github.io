@@ -2,7 +2,7 @@
     title: IDEA实战开发效率提升插件汇总 # 文章标题  
     date: 2021/08/18 11:09:29
     tags:
-    - 其他   https://img.zssaer.cn
+    - 其他
     categories: 其他 # 分类
     thumbnail: https://img.zssaer.cn/wallhaven-281d5y.png?x-oss-process=style/wallpaper # 略缩图
 ---
