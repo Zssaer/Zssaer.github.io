@@ -4,7 +4,7 @@
     tags:
     - JAVA
     categories: JAVA # 分类
-    thumbnail: https://img.zssaer.cn/hope3.png?x-oss-process=style/small # 略缩图 
+    thumbnail: http://img.zssaer.cn/hope3.png?x-oss-process=style/small # 略缩图 
 ---
 <h1 align = "center">Eureka</h1>
 
@@ -22,7 +22,7 @@ Eureka结构分为3大模块.
 - Service Provider 简称服务提供者，将自身服务注册到Eureka，从而使服务消费方能够找到
 - Service Consumer 简称服务消费者，从Eureka获取注册服务列表，从而能够消费服务
 
-![](https://img.zssaer.cn/1683bed8a75eaba2_tplv-t2oaga2asx-image.jpg)
+![](http://img.zssaer.cn/1683bed8a75eaba2_tplv-t2oaga2asx-image.jpg)
 
 服务注册中心实时管理服务提供者和服务消费者,服务消费者可以调用服务提供者的API.
 
@@ -36,7 +36,7 @@ Eureka 包括两个服务模块：Service Provider（服务提供者）和Servic
 
 可以参考:http://www.ruanyifeng.com/blog/2018/07/cap.html
 
-![](https://img.zssaer.cn/bg2018071607.jpg)
+![](http://img.zssaer.cn/bg2018071607.jpg)
 
 其中CAP代表:
 
@@ -142,7 +142,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 
 5.运行项目,访问路径根目录.便会看到 Eureka 提供的 Web 控制台,上面显示着服务提供者服务消费者的相关信息。
 
-![](https://img.zssaer.cn/euraka.png)
+![](http://img.zssaer.cn/euraka.png)
 
 
 
@@ -235,7 +235,7 @@ DiscoveryClient_EUREKA-CLIENT-USER-SERVICE/eureka-client-user-service:192.168.0.
 
 返回服务注册中心页面,便可显示该项目id以及状态.
 
-![](https://img.zssaer.cn/euraka2.png)
+![](http://img.zssaer.cn/euraka2.png)
 
 
 
@@ -283,5 +283,5 @@ public class ArticleController {
 
 ### 最终实现图例
 
-![](https://img.zssaer.cn/euraka3.png)
+![](http://img.zssaer.cn/euraka3.png)
 

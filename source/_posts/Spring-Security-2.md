@@ -4,7 +4,7 @@
     tags:
     - JAVA
     categories: JAVA # 分类
-    thumbnail: https://img.zssaer.cn/wallhaven-9mkzxw.jpg?x-oss-process=style/wallpaper # 略缩图 
+    thumbnail: http://img.zssaer.cn/wallhaven-9mkzxw.jpg?x-oss-process=style/wallpaper # 略缩图 
 ---
 
 # Spring-Security教程(二) :核心教程
@@ -182,7 +182,7 @@ SpringSecurity默认 使用的是 Authentication实现类是UsernamePasswordAuth
 
 所以ALL-IN-ALL，登录认证就是在登录时候将其输入的登录信息 封装为Authentication ，然后在跟其 数据库中的正确信息进行对比。将其流程整理为图：
 
-![](https://img.zssaer.cn/20211119164902.png)
+![](http://img.zssaer.cn/20211119164902.png)
 
 #### AuthenticationManager-处理Authentication请求
 
@@ -318,7 +318,7 @@ ProviderManager构造器接受一个list，可以设置多个自定义Authentica
 
  最后我们测试：
 
-![](https://img.zssaer.cn/20211122112734.png)
+![](http://img.zssaer.cn/20211122112734.png)
 
 默认的"/login"登录接口就能实现验证码验证功能了。
 
@@ -611,11 +611,11 @@ public class MyUser implements UserDetails {
 
 但是如今中大型项目中，都是采用的分布式集群设计，有多台服务器，那么由于需要实现负载均衡，每次访问的服务器都可能不一致，那么Session就需要实现互相共享。
 
-![](https://img.zssaer.cn/14-1.png)
+![](http://img.zssaer.cn/14-1.png)
 
 为了解决共享问题，目前主流的解决方案就是将其各个服务器需要共享的数据，统一保存在一个服务器中，通过这个服务器来实现统一保存。为了不影响用户的体验，通常这个服务器通常使用缓存服务器，如Redis等。
 
-![](https://img.zssaer.cn/14-2.png)
+![](http://img.zssaer.cn/14-2.png)
 
 当所有 Tomcat 需要往 Session 中写数据时，都往 Redis 中写，当所有 Tomcat 需要读数据时，都从 Redis 中读。这样，不同的服务就可以使用相同的 Session 数据了。
 

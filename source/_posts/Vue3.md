@@ -4,14 +4,14 @@
     tags:
     - 前端
     categories: 前端 # 分类
-    thumbnail: https://img.zssaer.cn/wallhaven-k7kv37.png?x-oss-process=style/small # 略缩图
+    thumbnail: http://img.zssaer.cn/wallhaven-k7kv37.png?x-oss-process=style/small # 略缩图
 ---
 
 本文章主要是为有 Vue 2 经验的用户希望了解 Vue 3 的新功能和更改而提供的。
 
 Vue3相对于Vue2.x变换不是非常大,在一些写法上是互相通融,vue2的写法在vue3也是通用的,所以要上手Vue3也是非常轻松的。
 
-![](https://img.zssaer.cn//vueLogo.jpg)
+![](http://img.zssaer.cn//vueLogo.jpg)
 
 对于 Vue 3，你应该使用 npm 上可用的 Vue CLI v4.5 作为 @vue/cli。
 要升级，你应该需要全局重新安装最新版本的 @vue/cli：
@@ -274,7 +274,7 @@ export default {
 
 使用依赖注入方式的话,我们可直接跳过传递步骤,无论组件位置多深,都可以直接远程传递数据,非常方便,如下图所示.
 
-<img src="https://img.zssaer.cn/components_provide.png" style="zoom:90%;" />
+<img src="http://img.zssaer.cn/components_provide.png" style="zoom:90%;" />
 
 父组件使用**Provide**提供传递的数据:
 
@@ -554,7 +554,7 @@ Vue 实现了一套内容分发的 API,将 `<slot>` 元素作为承载分发内�
 
 该插槽可以访问与引用组件其余部分相同的实例 property (即相同的“作用域”),但不能访问其组件内部的property,即插槽**不能**访问 `<todo-button>` 的作用域。
 
-<img src="https://img.zssaer.cn/slot%20(1).png" style="zoom:70%;" />
+<img src="http://img.zssaer.cn/slot%20(1).png" style="zoom:70%;" />
 
 Vue官方有条规则:
 
@@ -620,7 +620,7 @@ app.component('todo-list', {
 
 其整个过程图如下:
 
-<img src="https://img.zssaer.cn/scoped-slot.png" style="zoom:65%;" />
+<img src="http://img.zssaer.cn/scoped-slot.png" style="zoom:65%;" />
 
 
 

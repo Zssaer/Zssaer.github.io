@@ -4,7 +4,7 @@
     tags:
     - JAVA
     categories: JAVA # 分类
-    thumbnail: https://img.zssaer.cn/wallhaven-48ljv1.jpg?x-oss-process=style/wallpaper # 略缩图 
+    thumbnail: http://img.zssaer.cn/wallhaven-48ljv1.jpg?x-oss-process=style/wallpaper # 略缩图 
 ---
 ## 阿里云对象存储服务-OSS
 

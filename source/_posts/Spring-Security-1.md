@@ -4,12 +4,12 @@
     tags:
     - JAVA
     categories: JAVA # 分类
-    thumbnail: https://img.zssaer.cn/wallhaven-g71763.png?x-oss-process=style/wallpaper # 略缩图 
+    thumbnail: http://img.zssaer.cn/wallhaven-g71763.png?x-oss-process=style/wallpaper # 略缩图 
 ---
 
 # Spring-Security教程(一) :入门与无状态登录
 
-![](https://img.zssaer.cn/20211119102449.png)
+![](http://img.zssaer.cn/20211119102449.png)
 
 Java 领域里有两个权鉴框架比较出名 Shiro 和 Spring Security。
 
@@ -29,7 +29,7 @@ SpringSecurity 由于其功能框架众多，导致其配置和学习并理解�
 
 Spring Security在进行权限控制操作时，其流程大概如下：
 
-![](https://img.zssaer.cn/d359fe34bc7860c11a1b6e50bfd0e086.jpg)
+![](http://img.zssaer.cn/d359fe34bc7860c11a1b6e50bfd0e086.jpg)
 
 简单文字说明下:
 
@@ -56,7 +56,7 @@ Spring Security在进行权限控制操作时，其流程大概如下：
 
 导入依赖后，运行其项目后，会运行项目地址会发现自动跳转到了其login页面下：
 
-![](https://img.zssaer.cn/t_201208012223image-20201130140633581.png)
+![](http://img.zssaer.cn/t_201208012223image-20201130140633581.png)
 
 这个页面是SpringSecurity默认的身份认证页面。
 
@@ -317,7 +317,7 @@ public void sessionDestroyed(HttpSessionEvent event) {
 
 在前后端不分离的时候当用户未登录去访问资源时Spring security会重定向到默认的登录页面，返回的是一串html标签，这一串html标签其实就是登录页面的提交表单。如图所示
 
-![](https://img.zssaer.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy8xNDQ4OTcyOS1lOGNiODlkYzA1ZjI3MmY4LnBuZw.png)
+![](http://img.zssaer.cn/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy8xNDQ4OTcyOS1lOGNiODlkYzA1ZjI3MmY4LnBuZw.png)
 
 虽然在其SpringSecurity配置中可以使用 向configure方法中添加相关页面跳过授权。
 
@@ -1017,5 +1017,5 @@ public class JWTProvider {
 }
 ```
 
-# 本篇MD文件: [下载](https://img.zssaer.cn/Spring-Security-1.md)
+# 本篇MD文件: [下载](http://img.zssaer.cn/Spring-Security-1.md)
 

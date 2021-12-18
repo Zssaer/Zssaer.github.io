@@ -4,7 +4,7 @@
     tags:
     - JAVA
     categories: JAVA # 分类
-    thumbnail: https://img.zssaer.cn/wallhaven-wq35yp.jpg?x-oss-process=style/wallpaper # 略缩图 
+    thumbnail: http://img.zssaer.cn/wallhaven-wq35yp.jpg?x-oss-process=style/wallpaper # 略缩图 
 ---
 
 # JWT快速上手教程
@@ -37,7 +37,7 @@ eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ1c2VyIiwiZXhwIjoxNjM3Mjg5MTY0fQ.yl-5VYvv2yjD906r
 
 JWT实际上就是一个字符串，它由三部分组成：头部（header）、载荷（payload）与签名（signature）。
 
-![](https://img.zssaer.cn/aHR0cHM6Ly9pLmxvbGkubmV0LzIwMTkvMTAvMTUvRXFZTm9iN1ZGOHRTZUdqLnBuZw.png)
+![](http://img.zssaer.cn/aHR0cHM6Ly9pLmxvbGkubmV0LzIwMTkvMTAvMTUvRXFZTm9iN1ZGOHRTZUdqLnBuZw.png)
 
 如上图，三个部分使用“.”来进行连接。
 

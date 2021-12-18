@@ -4,14 +4,14 @@
     tags:
     - JAVA
     categories: JAVA # 分类
-    thumbnail: https://img.zssaer.cn/wallhaven-8oev1j.jpg?x-oss-process=style/small # 略缩图
+    thumbnail: http://img.zssaer.cn/wallhaven-8oev1j.jpg?x-oss-process=style/small # 略缩图
 ---
 <h1 align = "center">SpringBoot Result对象</h1>
 在目前大部分Web项目需要进行前后端分离开发，后端配置API，前端调用后端API，后端提供数据返回给前端，前端再进行二次渲染。
 而这其中后端API返回的数据为POJO类或者String数据，那么传输到前端渲染必将产生差异化。
 所以这时JSON的作用就来了。JSON和XML一样是一种以文本型的语言，其简洁和清晰的层次结构的特点，便于阅读和理解，广泛应用在传输和存储数据中。
 
-![](https://img.zssaer.cn/json1.png)
+![](http://img.zssaer.cn/json1.png)
 
 在目前的SpringBoot项目中广泛以传递Result Json文件给前端为主要趋势。
 主要包含状态码（请求状态，前端判断请求状态）、状态消息、返回对象。

@@ -4,7 +4,7 @@
     tags:
     - 前端
     categories: 前端 # 分类
-    thumbnail: https://img.zssaer.cn/wallhaven-y8vlyk.jpg # 略缩图
+    thumbnail: http://img.zssaer.cn/wallhaven-y8vlyk.jpg # 略缩图
 
 ---
 
