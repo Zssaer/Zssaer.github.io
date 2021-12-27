@@ -1,10 +1,10 @@
 ---
     title: EasyCaptcha-快速生成图像验证码   # 文章标题  
-    date: 
+    date: 2021/08/22 17:40:56
     tags:
     - JAVA
     categories: JAVA # 分类
-    thumbnail: http://img.zssaer.cn/hope.png # 略缩图
+    thumbnail: http://img.zssaer.cn/hope.png?x-oss-process=style/wallpaper # 略缩图
 ---
 <h1 align = "center">EasyCaptcha-快速生成图像验证码</h1>
 
