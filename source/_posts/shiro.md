@@ -4,11 +4,11 @@
     tags:
     - JAVA
     categories: JAVA # 分类
-    thumbnail: http://img.zssaer.cn/wallhaven-83dkk1.jpg?x-oss-process=style/wallpaper # 略缩图 
+    thumbnail: https://img.zssaer.cn/wallhaven-83dkk1.jpg?x-oss-process=style/wallpaper # 略缩图 
 ---
 <h1 align = "center">Shiro安全框架</h1>
 
-![](http://img.zssaer.cn/shiro.jpg)
+![](https://img.zssaer.cn/shiro.jpg)
 
 Apache Shiro是一个强大且易用的Java安全框架,执行身份验证、授权、密码和会话管理。使用Shiro的易于理解的API,您可以快速、轻松地获得任何应用程序,从最小的移动应用程序到最大的网络和企业应用程序。
 

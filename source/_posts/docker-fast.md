@@ -4,7 +4,7 @@
     tags:
     - 后端
     categories: 后端 # 分类
-    thumbnail: http://img.zssaer.cn/docker.jpg # 略缩图
+    thumbnail: https://img.zssaer.cn/docker.jpg # 略缩图
 ---
 <h1 align = "center">Docker常用命令</h1>
 

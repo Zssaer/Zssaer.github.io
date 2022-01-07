@@ -4,7 +4,7 @@
     tags:
     - JAVA
     categories: JAVA # 分类
-    thumbnail: http://img.zssaer.cn/wallhaven-573g33.jpg?x-oss-process=style/wallpaper # 略缩图
+    thumbnail: https://img.zssaer.cn/wallhaven-573g33.jpg?x-oss-process=style/wallpaper # 略缩图
 
 ---
 
@@ -130,7 +130,7 @@ spring.flyway.validate-on-migrate
 
 默认的FlyWay SQL管理文件夹在项目文件下的resources/db/migration文件夹下，用于存储项目的Sql文件，不管Sql文件是在文件夹外部，还是在版本文件夹也没关系，一样可以识别到：
 
-![](http://img.zssaer.cn/5673257-e75ac8a1fa107859.webp)
+![](https://img.zssaer.cn/5673257-e75ac8a1fa107859.webp)
 
 但是此处的SQL文件 命名需要遵从一定的规范，否则运行的时候flyway会报错。命名规则主要有两种：
 
@@ -155,11 +155,11 @@ spring.flyway.validate-on-migrate
 
 当我们将其对应的SQL版本文件放置到项目下后，我们运行项目，就会发现FlyWay自动将其Sql文件运行了，数据库也多了对应的数据。
 
-![](http://img.zssaer.cn/5673257-6c455d61e1522ff6.webp)
+![](https://img.zssaer.cn/5673257-6c455d61e1522ff6.webp)
 
 我们还会发现数据库还会多了一个叫`flyway_schema_history`的数据库:
 
-![image-20211231174958471](http://img.zssaer.cn/image-20211231174958471.png)
+![image-20211231174958471](https://img.zssaer.cn/image-20211231174958471.png)
 
 这个数据库使用来记录执行的SQl操作的情况的。
 
@@ -189,7 +189,7 @@ FlyWay还给我们通过了高级的Maven使用：
 
 然后更新maven插件列表，就可以看到flyway的全部命令了。
 
-![](http://img.zssaer.cn/20211231174209.png)
+![](https://img.zssaer.cn/20211231174209.png)
 
 其中命名效果如下:
 

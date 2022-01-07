@@ -4,7 +4,7 @@
   tags:
   - JAVA
   categories: JAVA # 分类
-  thumbnail: http://img.zssaer.cn/wallhaven-o31o2p.png?x-oss-process=style/small # 略缩图 
+  thumbnail: https://img.zssaer.cn/wallhaven-o31o2p.png?x-oss-process=style/small # 略缩图 
 ---
 
 ### Eureka集群开发

@@ -4,7 +4,7 @@
     tags:
     - JAVA
     categories: JAVA # 分类
-    thumbnail: http://img.zssaer.cn/wallhaven-y8keeg.jpg?x-oss-process=style/wallpaper # 略缩图
+    thumbnail: https://img.zssaer.cn/wallhaven-y8keeg.jpg?x-oss-process=style/wallpaper # 略缩图
 ---
 
 # CGLIB动态代理
@@ -66,7 +66,7 @@ Enhancer是一个CGLIB中非常重要的类，它允许为非接口类型创建�
 
 在利用Enhancer前，我们先介绍回调，
 
-![](http://img.zssaer.cn/jnbNov2005-2.png)
+![](https://img.zssaer.cn/jnbNov2005-2.png)
 
 Enhancer几乎所有的类都基于回调这个接口。
 

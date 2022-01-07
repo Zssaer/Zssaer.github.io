@@ -4,7 +4,7 @@
     tags:
     - JAVA
     categories: JAVA # 分类
-    thumbnail: http://img.zssaer.cn/wallhaven-w86gkp.jpg?x-oss-process=style/wallpaper # 略缩图
+    thumbnail: https://img.zssaer.cn/wallhaven-w86gkp.jpg?x-oss-process=style/wallpaper # 略缩图
 ---
 # SpringCloud与Dubbo融合使用
 

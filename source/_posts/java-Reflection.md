@@ -4,7 +4,7 @@
     tags:
     - JAVA
     categories: JAVA # 分类
-    thumbnail: http://img.zssaer.cn//chris-ried-ieic5Tq8YMk-unsplash.jpg?x-oss-process=style/wallpaper # 略缩图
+    thumbnail: https://img.zssaer.cn//chris-ried-ieic5Tq8YMk-unsplash.jpg?x-oss-process=style/wallpaper # 略缩图
 ---
 
 # Java-Reflection(JAVA反射)汇总

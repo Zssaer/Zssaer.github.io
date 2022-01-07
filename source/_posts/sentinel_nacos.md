@@ -4,7 +4,7 @@
     tags:
     - JAVA
     categories: JAVA # 分类
-    thumbnail: http://img.zssaer.cn/aaron-von-pilgrim-XMK73x_Nm6k-unsplash.jpg?x-oss-process=style/wallpaper # 略缩图 
+    thumbnail: https://img.zssaer.cn/aaron-von-pilgrim-XMK73x_Nm6k-unsplash.jpg?x-oss-process=style/wallpaper # 略缩图 
 ---
 
 <h1 align = "center">Sentinel配合Nacos存储规则</h1>
@@ -84,11 +84,11 @@ spring:
 
 这个参数可以通过`org.springframework.cloud.alibaba.sentinel.datasource.RuleType`这个枚举类中看见所能配置的类型。
 
-![](http://img.zssaer.cn/20210820141135.png)
+![](https://img.zssaer.cn/20210820141135.png)
 
 前往Nacos配置管理，新增一个配置文件，用作其Sentinel的规则配置文件，其中dataId和Group需要与SpringCloud配置文件中指定的一样。
 
-![](http://img.zssaer.cn/pasted-204.png)
+![](https://img.zssaer.cn/pasted-204.png)
 
 Sentinel配置文件建议使用Json文件来进行配置，其中配置内容样式如下：
 
@@ -120,7 +120,7 @@ Sentinel配置文件建议使用Json文件来进行配置，其中配置内容�
 
 最后运行客户端，会发现顺利Sentinel控制台已经从Nacos服务上获取到了规则配置文件：
 
-![](http://img.zssaer.cn/20210820142904.png)
+![](https://img.zssaer.cn/20210820142904.png)
 
 ## 更新配置
 
@@ -314,5 +314,5 @@ mvn clean package
 
 **注意:当使用Sentinel控制台修改后，Nacos推送得到的配置文件将会变为TEXT格式，但由于Json格式和Text格式相通，所以不需要担心出错。**
 
-![](http://img.zssaer.cn/20210820155655.png)
+![](https://img.zssaer.cn/20210820155655.png)
 
