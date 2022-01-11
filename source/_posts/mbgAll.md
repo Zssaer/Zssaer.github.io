@@ -4,7 +4,7 @@
     tags:
     - JAVA
     categories: JAVA # 分类
-    thumbnail: https://img.zssaer.cn/anime2.jpg?x-oss-process=style/small # 略缩图 
+    thumbnail: https://img.zssaer.cn/anime2.jpg?x-oss-process=style/wallpaper # 略缩图 
 ---
 # MBG配合TK.mybatis\freemarker生成SSM框架
 

@@ -4,7 +4,7 @@
     tags:
     - 其他
     categories: 其他 # 分类
-    thumbnail: https://img.zssaer.cn/joshua-sortino-LqKhnDzSF-8-unsplash.jpg?x-oss-process=style/wallpaper # 略缩图
+    thumbnail: https://img.zssaer.cn/wallhaven-3kkmxd.jpg?x-oss-process=style/wallpaper # 略缩图
 ---
 <h1 align = "center">压力测试工具-JMeter</h1>
 

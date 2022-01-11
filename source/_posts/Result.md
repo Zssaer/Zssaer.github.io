@@ -4,7 +4,7 @@
     tags:
     - JAVA
     categories: JAVA # 分类
-    thumbnail: https://img.zssaer.cn/wallhaven-8oev1j.jpg?x-oss-process=style/small # 略缩图
+    thumbnail: https://img.zssaer.cn/wallhaven-8oev1j.jpg?x-oss-process=style/wallpaper # 略缩图
 ---
 <h1 align = "center">SpringBoot Result对象</h1>
 在目前大部分Web项目需要进行前后端分离开发，后端配置API，前端调用后端API，后端提供数据返回给前端，前端再进行二次渲染。

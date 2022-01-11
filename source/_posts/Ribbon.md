@@ -4,7 +4,7 @@
     tags:
     - JAVA
     categories: JAVA # 分类
-    thumbnail: https://img.zssaer.cn/anime1.jpg # 略缩图
+    thumbnail: https://img.zssaer.cn/anime1.jpg?x-oss-process=style/wallpaper # 略缩图
 ---
 
 <h1 align = "center">Spring Cloud-Ribbon</h1>

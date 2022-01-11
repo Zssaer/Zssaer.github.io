@@ -4,7 +4,7 @@
     tags:
     - 后端
     categories: 后端 # 分类
-    thumbnail: https://img.zssaer.cn/dockerlogo.jpg # 略缩图
+    thumbnail: https://img.zssaer.cn/dockerlogo.jpg?x-oss-process=style/wallpaper # 略缩图
 ---
 <h1 align = "center"> Docker入门教程(二)</h1>
 

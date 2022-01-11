@@ -19,14 +19,16 @@
   <link rel="stylesheet" href="<%- config.root %>css/noscript.css" />
 </noscript>
 <style type="text/css">
-  body{
-    background: #5DAC81 center 0 no-repeat;
-  }
+  /* body{
+    background: url('<%- theme.head.backgroundpic%>') center 0 no-repeat;
+    content: " ";
+    position: fixed;
+  } */
   body:before {
     content: " ";
     position: fixed;
     top: 0;
-    /* background: url('<%- theme.head.backgroundpic%>') center 0 no-repeat; */
+    background: url('<%- theme.head.backgroundpic%>') center 0 no-repeat;
 
     right: 0;
     bottom: 0;
