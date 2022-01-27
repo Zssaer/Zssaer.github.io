@@ -386,6 +386,8 @@ body.is-loading #wrapper.fade-in:before {
   /* font-style: italic; */
   margin-top: -0.25rem;
   text-align: center;
+  color: rgb(0, 0, 0);
+  
 }
 
 #intro + #header {
