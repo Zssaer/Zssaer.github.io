@@ -310,6 +310,23 @@ public int[] sortArray(int[] nums) {
     }
 ```
 
+**while 中两个指针循环，可以在内部进行判断，当其指针到边缘位置时break退出，避免不必要的循环步骤，性能又能提升40%。**
+
+```java
+while (nums[less]<pivot){
+    if (less==right){
+        break;
+    }
+    less++;
+}
+while (nums[greater]>pivot){
+    if (greater==left){
+        break;
+    }
+    greater--;
+}
+```
+
 | 算法名称 | 最好时间复杂度 | 最坏时间复杂度 | 平均时间复杂度 | 空间复杂度 | 是否稳定 |
 | -------- | -------------- | -------------- | -------------- | ---------- | -------- |
 | 归并排序 | O(nlogn)       | O(nlogn)       | O(nlogn)       | O(n)       | 稳定     |
