@@ -10,7 +10,7 @@ head:
 
 Intro:
   name: Zssaer
-  slogan: "ALL WE HAD TO DO WAS FOLLOW THE DAMN TRAIN CJ!"
+  slogan: "IF YOU STAY IN ONE PLACE LONG ENOUGH,AND YOU’LL NEVER GO ANYWHERE."
   HeadButton: Refrain
 
 Nav:
@@ -38,7 +38,7 @@ Nav:
 
 MainFirst:
   name: TIANYI ZHAO
-  description: TECHNICAL MEMBER OF THE BOTTOM OF SOCIETY
+  description: JUST WRITE FOR MYSLEF
   pic_url: "https://img.zssaer.cn/me.jpg?x-oss-process=style/small"
   goto_ulr: "/about/"
 
