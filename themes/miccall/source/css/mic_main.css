@@ -2594,7 +2594,7 @@ header {
   }
 
   #toc_menu {
-    background-color: rgba(58, 58, 58, 0.692);
+    background-color: rgba(19, 18, 18, 0.692);
     width: 37%;
     padding: 15px;
     position: fixed;
@@ -2606,12 +2606,13 @@ header {
     z-index: 3;
   }
   
+  
   #toc_menu::-webkit-scrollbar {
     background-color: #333;
     width: 12px;
   }
   #toc_menu::-webkit-scrollbar-track {
-    background-color: #336774;
+    background-color: #CB1B45;
   }
   #toc_menu::-webkit-scrollbar-thumb {
     background-color: #333;
@@ -2621,6 +2622,11 @@ header {
   }
   #toc_menu::-webkit-scrollbar-thumb:active {
     background-color: #333;
+  }
+
+  #toc_menu .toc{
+    margin-top: 15px;
+    margin-left: 10px;
   }
 
   #toc_menu a {
@@ -4836,7 +4842,9 @@ header {
   padding-left: 5%;
   color: #eeeeee;
 }
-
+.typo h1:target,.typo h2:target,.typo h3:target,.typo h4:target,.typo h5:target{
+  padding-top:65px;
+}
 /* post-contant */
 .typo a {
   border-bottom: 0;
