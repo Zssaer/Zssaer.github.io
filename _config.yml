@@ -106,7 +106,6 @@ deploy:
   - type: git
     repo: git@github.com:Zssaer/Zssaer.github.io.git
     branch: master
-  - type: cjh_baidu_url_submitter
 
 # 在hexo generate或hexo deploy之前使用hexo bangumi -u命令更新追番数据，使用hexo cinema -u命令更新追剧数据！
 bangumi: # 追番设置
