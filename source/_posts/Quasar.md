@@ -5,7 +5,7 @@
     tags:
     - 前端
     categories: 前端 # 分类
-    thumbnail: https://img.zssaer.cn/wallhaven-dp6zdm.png?x-oss-process=style/wallpaper # 略缩图
+    thumbnail: https://zssaer.oss-cn-chengdu.aliyuncs.com/wallhaven-dp6zdm.png?x-oss-process=style/wallpaper # 略缩图
 
 ---
 
@@ -13,7 +13,7 @@
 
 ## 前言
 
-![](https://img.zssaer.cn/logo-vertical.svg)
+![](https://zssaer.oss-cn-chengdu.aliyuncs.com/logo-vertical.svg)
 
 [Quasar](https://github.com/quasarframework)是一款专门为Vue.js设计的一款的UI框架，该项目在GitHub上目前是Vue.js Start数量最多的UI框架。
 
@@ -369,7 +369,7 @@ CSS辅助类`col-shrink`使单元格最多填充需要呈现的空间，并且�
 </div>
 ```
 
-![](https://img.zssaer.cn/flexbox-grow.svg)
+![](https://zssaer.oss-cn-chengdu.aliyuncs.com/flexbox-grow.svg)
 
 当其中col的分配数量在每行（或者列）超过了12的话，超出部分元素将会换行进行展示。
 
@@ -521,7 +521,7 @@ QLayout拥有一个独特的一个布局概率，使您可以通过简单地更�
 
 其中X代表选择范围也代表其位置的情况，它们的选择范围如下：
 
-![](https://img.zssaer.cn/20220309151841.png)
+![](https://zssaer.oss-cn-chengdu.aliyuncs.com/20220309151841.png)
 
 实际指定操作为从左到右拼接：
 
@@ -533,7 +533,7 @@ QLayout拥有一个独特的一个布局概率，使您可以通过简单地更�
 
 当某个位置选择对应的英文的话，则代表对应位置就覆盖在顶部显示,如下所示。
 
-![](https://img.zssaer.cn/20220309152505.png)
+![](https://zssaer.oss-cn-chengdu.aliyuncs.com/20220309152505.png)
 
 上图由于左侧全部是l(不管大小都算)，所以左侧侧拉栏则为固定在左边，而右侧的r只有两个区域，所以右侧侧拉栏只在选择的r两区域固定。
 
@@ -564,7 +564,7 @@ QLayout拥有一个独特的一个布局概率，使您可以通过简单地更�
 
 现在网页界面通常由嵌套在多个级别的组件组成。 URL的段对应于嵌套组件的某种结构也很常见，例如：
 
-![](https://img.zssaer.cn/20220310102630.png)
+![](https://zssaer.oss-cn-chengdu.aliyuncs.com/20220310102630.png)
 
 我们打开两个页面（profile、posts）就会发现，其实两个页面都是基于User这个布局来进行，切换页面时User内容不会被重新加载，而是中间的内容进行单独加装。这个就是路由的另外一个功能（前一个功能是跳转切换）-嵌套路由。
 
@@ -698,7 +698,7 @@ QToolbar通常是用在布局页眉和页脚上的一部分，但它也可以在
 
 它本身只是一个有颜色的横条，通常需搭配如`q-btn`、`q-toolbar-title`、`q-breadcrumbs`等使用。
 
-![](https://img.zssaer.cn/20220310151601.png)
+![](https://zssaer.oss-cn-chengdu.aliyuncs.com/20220310151601.png)
 
 它拥有一个特别的属性`inset` : 运行带有这个属性的工具类嵌入上面主工具栏上，从而实现多层工具栏。
 
@@ -711,7 +711,7 @@ QToolbar通常是用在布局页眉和页脚上的一部分，但它也可以在
 </q-toolbar>
 ```
 
-![](https://img.zssaer.cn/20220310151331.png)
+![](https://zssaer.oss-cn-chengdu.aliyuncs.com/20220310151331.png)
 
 
 
@@ -739,7 +739,7 @@ color为按钮颜色的属性，label为按钮显示文字。
 <q-btn outline color="primary" label="Outline" />
 ```
 
-![](https://img.zssaer.cn/20220310153138.png)![](https://img.zssaer.cn/20220310153231.png)![](https://img.zssaer.cn/20220310153409.png)
+![](https://zssaer.oss-cn-chengdu.aliyuncs.com/20220310153138.png)![](https://zssaer.oss-cn-chengdu.aliyuncs.com/20220310153231.png)![](https://zssaer.oss-cn-chengdu.aliyuncs.com/20220310153409.png)
 
 当然和其他UI库一样，它设置`round `即可是圆形按钮。
 
@@ -749,7 +749,7 @@ QBtn拥有 icon属性，支持设置按钮图标。当然这个图标可以选�
 <q-btn color="primary" icon="mail" label="On Left" />
 ```
 
-![](https://img.zssaer.cn/20220310153632.png)
+![](https://zssaer.oss-cn-chengdu.aliyuncs.com/20220310153632.png)
 
 除了公式化的这些设计以外，QBtn还支持自定义设计图标内容，只需要在标签内部添加元素即可。
 
@@ -770,7 +770,7 @@ QBtn拥有 icon属性，支持设置按钮图标。当然这个图标可以选�
     </q-btn>
 ```
 
-![](https://img.zssaer.cn/20220310153944.png)![](https://img.zssaer.cn/20220310153958.png)
+![](https://zssaer.oss-cn-chengdu.aliyuncs.com/20220310153944.png)![](https://zssaer.oss-cn-chengdu.aliyuncs.com/20220310153958.png)
 
 使用size属性可以确认确认其图标大小，如果使用的标准屏幕字母来设置大小（如XS、SM、MD、LG、XL）的话需要使用`:size`来设置。
 
@@ -791,7 +791,7 @@ QBtn拥有 icon属性，支持设置按钮图标。当然这个图标可以选�
 </q-btn>
 ```
 
-![](https://img.zssaer.cn/qqqq.gif)![](https://img.zssaer.cn/qqqq2.gif)
+![](https://zssaer.oss-cn-chengdu.aliyuncs.com/qqqq.gif)![](https://zssaer.oss-cn-chengdu.aliyuncs.com/qqqq2.gif)
 
 甚至你还可以在图标中设置附加的`percentage`属性以显示处理的进度。
 
@@ -929,7 +929,7 @@ QBtnDropdown内部常常跟QList 选择列表结合。
     </q-btn-dropdown>
 ```
 
-![](https://img.zssaer.cn/20220310161240.png)
+![](https://zssaer.oss-cn-chengdu.aliyuncs.com/20220310161240.png)
 
 
 
@@ -957,7 +957,7 @@ QCard组件特意是轻巧的，并且实质上是一个布局包含元素，该
 </q-card>
 ```
 
-![](https://img.zssaer.cn/20220310161831.png)
+![](https://zssaer.oss-cn-chengdu.aliyuncs.com/20220310161831.png)
 
 其中<q-card-section>是一个强制性封格元素，默认使上下产生间距，内部元素以水平显示。甚至可以在里面添加按钮，以实现某些操作。
 
@@ -981,7 +981,7 @@ QCard组件特意是轻巧的，并且实质上是一个布局包含元素，该
     </q-card>
 ```
 
-![](https://img.zssaer.cn/20220310165737.png)
+![](https://zssaer.oss-cn-chengdu.aliyuncs.com/20220310165737.png)
 
 ### QCarousel-滚动栏(Banner)
 
@@ -1016,7 +1016,7 @@ QCarousel 内部的内容由多个<q-carousel-slide>组件组成，它们即使�
 
 其中的v-model 绑定的当前的滚动的位置,这个位置 是 指的是 <q-carousel-slide>组件的name属性。
 
-![](https://img.zssaer.cn/20220310170912.png)
+![](https://zssaer.oss-cn-chengdu.aliyuncs.com/20220310170912.png)
 
 QCarousel  内部属性 swipeable表示 能够滑动切换内容，navigation则是下方导航显示为点。
 
@@ -1038,7 +1038,7 @@ QCarousel  内部属性 swipeable表示 能够滑动切换内容，navigation则
 </q-carousel>
 ```
 
-![](https://img.zssaer.cn/20220310172139.png)
+![](https://zssaer.oss-cn-chengdu.aliyuncs.com/20220310172139.png)
 
 同样内部也可以放置其他元素,比如更多文字。
 

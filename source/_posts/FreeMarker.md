@@ -4,7 +4,7 @@
     tags:
     - JAVA
     categories: JAVA # 分类
-    thumbnail: https://img.zssaer.cn/wallhaven-k7j861.jpg?x-oss-process=style/wallpaper # 略缩图
+    thumbnail: https://zssaer.oss-cn-chengdu.aliyuncs.com/wallhaven-k7j861.jpg?x-oss-process=style/wallpaper # 略缩图
 ---
 
 # FreeMarker模板生成代码

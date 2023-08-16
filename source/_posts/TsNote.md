@@ -4,11 +4,11 @@
     tags:
     - 前端
     categories: 前端 # 分类
-    thumbnail: https://img.zssaer.cn/typescript.png?x-oss-process=style/wallpaper # 略缩图
+    thumbnail: https://zssaer.oss-cn-chengdu.aliyuncs.com/typescript.png?x-oss-process=style/wallpaper # 略缩图
 ---
 # 渐进式学习TypeScript(上篇)
 
-<img src="https://img.zssaer.cn/tslogo.png" style="zoom:200%;" align = "center"/>
+<img src="https://zssaer.oss-cn-chengdu.aliyuncs.com/tslogo.png" style="zoom:200%;" align = "center"/>
 
 ## 何为TypeScript
 

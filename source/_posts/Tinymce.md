@@ -4,7 +4,7 @@
     tags:
     - 前端
     categories: 前端 # 分类
-    thumbnail: https://img.zssaer.cn/JrAJTf-aHsc.jpg?x-oss-process=style/wallpaper # 略缩图
+    thumbnail: https://zssaer.oss-cn-chengdu.aliyuncs.com/JrAJTf-aHsc.jpg?x-oss-process=style/wallpaper # 略缩图
 ---
 # TinyMCE富文本编辑器
 TinyMCE是一款易用、且功能强大的所见即所得的可跨平台富文本编辑器。同类程序有：UEditor、Kindeditor、Simditor、CKEditor、wangEditor、Suneditor、froala等等。
@@ -22,7 +22,7 @@ TinyMCE的优势：
 官网及文档：[www.tiny.cloud](https://www.tiny.cloud/)
 官网下载：[www.tiny.cloud/get-tiny/self-hosted/](https://www.tiny.cloud/get-tiny/self-hosted/)
 Github：[github.com/tinymce](https://github.com/tinymce/)
-![](https://img.zssaer.cn/tinyMCE.png)
+![](https://zssaer.oss-cn-chengdu.aliyuncs.com/tinyMCE.png)
 ### TinyMCE是否收费
 
 > tinymce主程序及自带的大部分插件均提供社区开源版，可免费使用且可商用。tinymce的主要盈利模式为【付费插件及拓展服务】，有关付费项目的列表，请参考：https://www.tiny.cloud/pricing
@@ -46,10 +46,10 @@ Github：[github.com/tinymce](https://github.com/tinymce/)
    TinyMCE是国外的插件,所以自然默认为英文版本,需要使用中文的话,要去官网下载汉化包:
 
     https://www.tiny.cloud/get-tiny/language-packages/
-    ![](https://img.zssaer.cn/tinyMCE-CN.png)
+    ![](https://zssaer.oss-cn-chengdu.aliyuncs.com/tinyMCE-CN.png)
 3. 在项目public文件夹下新建tinymce文件夹，将下载后的汉化压缩包解压至此文件夹下
    再将node_modules/tinymce/skins文件夹也复制到public/tinymce文件夹下(最终如下图所示)
-    ![](https://img.zssaer.cn/tinyMCE-lib.png)
+    ![](https://zssaer.oss-cn-chengdu.aliyuncs.com/tinyMCE-lib.png)
 4. 导入Emoji表情插件 (可跳过)
 
    将node_modules/tinymce/plugins/emoticons文件夹复制到public/tinymce里

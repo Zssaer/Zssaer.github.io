@@ -4,7 +4,7 @@
     tags:
     - Python
     categories: Python # 分类
-    thumbnail: https://img.zssaer.cn/pythonlogo.jpg?x-oss-process=style/wallpaper # 略缩图 
+    thumbnail: https://zssaer.oss-cn-chengdu.aliyuncs.com/pythonlogo.jpg?x-oss-process=style/wallpaper # 略缩图 
 ---
 # Python教程
 
@@ -12,7 +12,7 @@
 
 Python由荷兰程序员*Guido van Rossum*开发而成。Python作为一种称为 ABC 的语言的继承者。目前虽然Guido退出了Python首席官,但他 仍然是 Python 的主要作者，尽管它包含了许多其他人的贡献。
 
-![image-20220111151504878](https://img.zssaer.cn/image-20220111151504878.png)
+![image-20220111151504878](https://zssaer.oss-cn-chengdu.aliyuncs.com/image-20220111151504878.png)
 
 Python 属于高级语言,建立在多个基础语言之上,覆盖了网络、文件、GUI、数据库、文本等大量内容，被形象地称作“内置电池（batteries included）”。用Python开发，许多功能不必从零编写，直接使用现成的即可。
 
@@ -30,7 +30,7 @@ Python属于函数式编程语言，和CPP、JAVA这样的对象式编程不一�
 * 代码不能加密。因为不能够像其他语言拥有编译功能进行转换为二进制文件运行，需要Python环境依赖运行。
 * ...还有很多
 
-![](https://img.zssaer.cn/pylog.png)
+![](https://zssaer.oss-cn-chengdu.aliyuncs.com/pylog.png)
 
 
 
@@ -42,7 +42,7 @@ Python目前有两个版本，一个是2.x版，一个是3.x版，这两个版�
 
 **其中,Python2.X版本已经停止管理,3.x版越来越普及，所以现在建议使用3.x版本进行学习!**
 
-![](https://img.zssaer.cn/pyversion.png)
+![](https://zssaer.oss-cn-chengdu.aliyuncs.com/pyversion.png)
 
 
 
@@ -52,7 +52,7 @@ Python和其他大部分语言几乎一样，都拥有相似的数据结构和�
 
 **Python官方有他们自己的文档(而且有中文版本): [点击查看](https://docs.python.org/zh-cn/3.8/)**
 
-![](https://img.zssaer.cn/pydocument.png)
+![](https://zssaer.oss-cn-chengdu.aliyuncs.com/pydocument.png)
 
 
 

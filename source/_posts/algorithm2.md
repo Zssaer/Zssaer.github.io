@@ -5,7 +5,7 @@
     tags:
     - Algorithm
     categories: 算法 # 分类
-    thumbnail: https://img.zssaer.cn/wallhaven-3zgxo3.jpg?x-oss-process=style/wallpaper # 略缩图
+    thumbnail: https://zssaer.oss-cn-chengdu.aliyuncs.com/wallhaven-3zgxo3.jpg?x-oss-process=style/wallpaper # 略缩图
 ---
 # 算法与数据结构(二) - 数组
 
@@ -55,7 +55,7 @@
 
 假设存在数组：1,2,3,4,7,9,10中查找元素2.
 
-<img src="https://img.zssaer.cn/erfenfa.png" style="zoom:80%;" />
+<img src="https://zssaer.oss-cn-chengdu.aliyuncs.com/erfenfa.png" style="zoom:80%;" />
 
 ```java
 public static int twolinkSearch(int[] nums, int target) {
@@ -100,7 +100,7 @@ public static int twolinkSearch(int[] nums, int target) {
 
 #### **暴力循环解法**
 
-<img src="https://img.zssaer.cn/68747470733a2f2f747661312e73696e61696d672e636e2f6c617267652f30303865476d5a456c7931676e747263377839746a673330647530396d316b792e676966.gif" style="zoom: 90%;" />
+<img src="https://zssaer.oss-cn-chengdu.aliyuncs.com/68747470733a2f2f747661312e73696e61696d672e636e2f6c617267652f30303865476d5a456c7931676e747263377839746a673330647530396d316b792e676966.gif" style="zoom: 90%;" />
 
 使用两层for循环，一个for循环遍历数组元素 ，第二个for循环更新数组。
 
@@ -128,7 +128,7 @@ public static int foreachDeleteVar(int[] nums,int target){
 
 双指针法（快慢指针法）： **通过一个快指针和慢指针在一个for循环下完成两个for循环的工作。**
 
-<img src="https://img.zssaer.cn/2221.gif" style="zoom:90%;" />
+<img src="https://zssaer.oss-cn-chengdu.aliyuncs.com/2221.gif" style="zoom:90%;" />
 
 **双指针法（快慢指针法）在数组和链表的操作中是非常常见的，很多考察数组、链表、字符串等操作的面试题，都使用双指针法。**
 
@@ -166,7 +166,7 @@ public static int fastSlowIndexDeleteVar(int[] nums, int target) {
 
 使用滑动窗口法:
 
-<img src="https://img.zssaer.cn/333.gif" style="zoom:90%;" />
+<img src="https://zssaer.oss-cn-chengdu.aliyuncs.com/333.gif" style="zoom:90%;" />
 
 本题中实现滑动窗口，主要确定如下三点：
 
@@ -206,7 +206,7 @@ public static int miniSubLen(int[] nums, int target) {
 
 #### **插入排序**
 
-<img src="https://img.zssaer.cn/array1.gif" style="zoom:90%;" />
+<img src="https://zssaer.oss-cn-chengdu.aliyuncs.com/array1.gif" style="zoom:90%;" />
 
 每次将一个数字插入一个有序的数组里，成为一个长度更长的有序数组，有限次操作以后，数组整体有序。
 
@@ -244,15 +244,15 @@ public int[] sortArray(int[] nums) {
 
 **将原数组分区域,分别排序**,借助额外空间，合并分区域的有序数组，得到更长的有序数组.
 
-<img src="https://img.zssaer.cn/mergeSort.png" style="zoom:110%;" />
+<img src="https://zssaer.oss-cn-chengdu.aliyuncs.com/mergeSort.png" style="zoom:110%;" />
 
 而其中的归并主要实现思想为:
 
-<img src="https://img.zssaer.cn/me.png" style="zoom:110%;" />
+<img src="https://zssaer.oss-cn-chengdu.aliyuncs.com/me.png" style="zoom:110%;" />
 
 通过双指针从左自右比较两个指针指向的值,将较小的一方存入大集合中,存入之后较小一方的指针向前移动,并继续比较，直到某一小集合的元素全部都存到大集合中。
 
-<img src="https://img.zssaer.cn/me2.png" style="zoom:110%;" />
+<img src="https://zssaer.oss-cn-chengdu.aliyuncs.com/me2.png" style="zoom:110%;" />
 
 当某一小集合元素全部放入大集合中(指针到尾部无法继续后)，则需将另一小集合中剩余的所有元素存到大集合中.
 
@@ -351,11 +351,11 @@ while (nums[greater]>pivot){
 
 在快速排序中,首先随机打乱数组排序.然后取出切分元素,它把数组大于小于它的进行划分.
 
-<img src="https://img.zssaer.cn/fastSort.png" style="zoom: 200%;" />
+<img src="https://zssaer.oss-cn-chengdu.aliyuncs.com/fastSort.png" style="zoom: 200%;" />
 
 然后分别将左右部分循环进行快速排序,
 
-<img src="https://img.zssaer.cn/fastSort1.png" style="zoom: 150%;" />
+<img src="https://zssaer.oss-cn-chengdu.aliyuncs.com/fastSort1.png" style="zoom: 150%;" />
 
 一边循环到只有大小一为止,排序到最后直接合并即可(不需要像归并排序最后还需要合并排序).
 

@@ -4,7 +4,7 @@
     tags:
     - 前端
     categories: 前端 # 分类
-    thumbnail: https://img.zssaer.cn/wallhaven-lmlye2_1600x900.png?x-oss-process=style/wallpaper # 略缩图
+    thumbnail: https://zssaer.oss-cn-chengdu.aliyuncs.com/wallhaven-lmlye2_1600x900.png?x-oss-process=style/wallpaper # 略缩图
 ---
 # 在CSS中制作“拉起窗帘”效果
 
@@ -12,7 +12,7 @@
 
 “拉开窗帘”即背景在滚动时从暗变为亮，而顶部的内容在处于粘性位置时也会从亮变为暗，就像拉开窗帘一样。
 
-![](https://img.zssaer.cn/curtains1.gif)
+![](https://zssaer.oss-cn-chengdu.aliyuncs.com/curtains1.gif)
 
 这种效果在各个大型企业的宣传页基本上都有用到过。
 
@@ -106,7 +106,7 @@ h2 {
 
 这时就完成了整个效果了。
 
-![](https://img.zssaer.cn/curtains2.gif)
+![](https://zssaer.oss-cn-chengdu.aliyuncs.com/curtains2.gif)
 
 
 

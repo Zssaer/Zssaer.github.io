@@ -4,7 +4,7 @@
     tags:
     - 前端
     categories: 前端 # 分类
-    thumbnail: https://img.zssaer.cn/wallhaven-x8yg8z.jpg?x-oss-process=style/wallpaper # 略缩图
+    thumbnail: https://zssaer.oss-cn-chengdu.aliyuncs.com/wallhaven-x8yg8z.jpg?x-oss-process=style/wallpaper # 略缩图
 ---
 
 # 只利用CSS创建收缩导航栏
@@ -14,7 +14,7 @@
 
 如下图效果：
 
-![](https://img.zssaer.cn/1s0Ea8DEbYPwwbzrt3C1g4g.gif)
+![](https://zssaer.oss-cn-chengdu.aliyuncs.com/1s0Ea8DEbYPwwbzrt3C1g4g.gif)
 
 这时有经验的人就会立刻想到使用JavaScript来向获取滚轮，再动态监听元素，添加Class来实现这样的效果。
 
@@ -160,7 +160,7 @@
 
 轻松实现：
 
-![](https://img.zssaer.cn/14-23-38.gif)
+![](https://zssaer.oss-cn-chengdu.aliyuncs.com/14-23-38.gif)
 
 
 

@@ -4,7 +4,7 @@
     tags:
     - 其他
     categories: 其他 # 分类
-    thumbnail: https://img.zssaer.cn/wallhaven-8o3z2j.png?x-oss-process=style/wallpaper # 略缩图 
+    thumbnail: https://zssaer.oss-cn-chengdu.aliyuncs.com/wallhaven-8o3z2j.png?x-oss-process=style/wallpaper # 略缩图 
 ---
 # 软件文档和设计规范
 
@@ -84,51 +84,51 @@
 
 ### 构造与调试
 
-![img](https://img.zssaer.cn/2021-03-08-21-30-24.png)
+![img](https://zssaer.oss-cn-chengdu.aliyuncs.com/2021-03-08-21-30-24.png)
 
 ### 瀑布模型
 
-![](https://img.zssaer.cn/2021-03-08-21-30-38.png)
+![](https://zssaer.oss-cn-chengdu.aliyuncs.com/2021-03-08-21-30-38.png)
 
 ### 快速原型模型
 
-![](https://img.zssaer.cn/2021-03-08-21-30-56.png)
+![](https://zssaer.oss-cn-chengdu.aliyuncs.com/2021-03-08-21-30-56.png)
 
 ### 增量模型
 
-![](https://img.zssaer.cn/2021-03-08-21-31-42.png)
+![](https://zssaer.oss-cn-chengdu.aliyuncs.com/2021-03-08-21-31-42.png)
 
 ### 螺旋模型
 
-![](https://img.zssaer.cn/2021-03-08-21-31-23.png)
+![](https://zssaer.oss-cn-chengdu.aliyuncs.com/2021-03-08-21-31-23.png)
 
 ### 喷泉模型
 
-![](https://img.zssaer.cn/2021-03-08-21-32-15.png)
+![](https://zssaer.oss-cn-chengdu.aliyuncs.com/2021-03-08-21-32-15.png)
 
 ### 敏捷开发
 
 个体和交互 胜过 过程和工具 可以工作的软件 胜过 面面俱到的文档 客户合作 胜过 合同谈判 响应变化 胜过 遵循计划
 
-![](https://img.zssaer.cn/2021-03-08-21-32-30.png)
+![](https://zssaer.oss-cn-chengdu.aliyuncs.com/2021-03-08-21-32-30.png)
 
 ### Scrum敏捷开发过程
 
 步骤：项目开发——迭代——冲刺——模块 一次完整的项目开发过程由若干次迭代开发过程组成，每次迭代完成后将发布一个功能有限的软件产品，经历若干次迭代后，最终发布功能完备的软件产品。
 
-![](https://img.zssaer.cn/2021-03-08-21-32-53.png)
+![](https://zssaer.oss-cn-chengdu.aliyuncs.com/2021-03-08-21-32-53.png)
 
 一次迭代开发过程需要在需求稳定的前提下开展，分别经历需求分析、架构设计、数据库设计（可选）、界面设计、若干次冲刺开发过程，以及集成测试，最终发布产品
 
-![](https://img.zssaer.cn/2021-03-08-21-33-09.png)
+![](https://zssaer.oss-cn-chengdu.aliyuncs.com/2021-03-08-21-33-09.png)
 
 一次冲刺开发过程由若干次模块开发过程组成，本次冲刺中包含的所有模块开发完成后，本次冲刺开发过程结束。
 
-![](https://img.zssaer.cn/2021-03-08-21-33-26.png)
+![](https://zssaer.oss-cn-chengdu.aliyuncs.com/2021-03-08-21-33-26.png)
 
 一次模块开发过程需经历物理设计、编码自测、代码评审、验收测试、模块测试等活动，最终以通过模块测试为结束依据。
 
-![](https://img.zssaer.cn/2021-03-08-21-33-46.png)
+![](https://zssaer.oss-cn-chengdu.aliyuncs.com/2021-03-08-21-33-46.png)
 
 
 

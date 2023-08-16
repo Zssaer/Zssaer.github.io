@@ -4,7 +4,7 @@
     tags:
     - 前端
     categories: 前端 # 分类
-    thumbnail: https://img.zssaer.cn/wallhaven-pk8pzj.png?x-oss-process=style/wallpaper # 略缩图
+    thumbnail: https://zssaer.oss-cn-chengdu.aliyuncs.com/wallhaven-pk8pzj.png?x-oss-process=style/wallpaper # 略缩图
 
 ---
 
@@ -24,7 +24,7 @@ Flexbox是CSS3的新布局.
 
 采用 Flex 布局的元素，称为 Flex 容器（flex container），简称"容器"。它的所有子元素自动成为容器成员，称为 Flex 项目（flex item），简称"项目"。
 
-![](https://img.zssaer.cn/image-20210923170847828.png)
+![](https://zssaer.oss-cn-chengdu.aliyuncs.com/image-20210923170847828.png)
 
 容器默认存在两根轴：水平的主轴（main axis）和垂直的交叉轴（cross axis）。主轴的开始位置（与边框的交叉点）叫做`main start`，结束位置叫做`main end`；交叉轴的开始位置叫做`cross start`，结束位置叫做`cross end`。
 
@@ -55,7 +55,7 @@ Flexbox是CSS3的新布局.
 
 弹性容器的直接子元素会自动成为弹性项目。
 
-<img src="https://img.zssaer.cn/flexbox.png" style="zoom:90%;" />
+<img src="https://zssaer.oss-cn-chengdu.aliyuncs.com/flexbox.png" style="zoom:90%;" />
 
 使用Flexbox布局的容器中 的控件组件默认没有间隔。
 
@@ -110,7 +110,7 @@ flex-wrap: nowrap | wrap | wrap-reverse;
 justify-content: flex-start | flex-end | center | space-between | space-around;
 ```
 
-![](https://img.zssaer.cn/bg2015071010.png)
+![](https://zssaer.oss-cn-chengdu.aliyuncs.com/bg2015071010.png)
 
 具体对齐方式与轴的方向有关。下面假设主轴为从左到右。
 
@@ -126,7 +126,7 @@ justify-content: flex-start | flex-end | center | space-between | space-around;
 
 `align-items`属性定义项目在交叉轴(默认上下)上如何对齐。
 
-![](https://img.zssaer.cn/bg2015071011.png)
+![](https://zssaer.oss-cn-chengdu.aliyuncs.com/bg2015071011.png)
 
 具体的对齐方式与交叉轴的方向有关，下面假设交叉轴从上到下。	
 
@@ -144,7 +144,7 @@ justify-content: flex-start | flex-end | center | space-between | space-around;
 align-content: flex-start | flex-end | center | space-between | space-around | stretch;
 ```
 
-![](https://img.zssaer.cn/bg2015071012.png)
+![](https://zssaer.oss-cn-chengdu.aliyuncs.com/bg2015071012.png)
 
 该属性可能取6个值。
 
@@ -190,7 +190,7 @@ flex-grow: <number>; /* default 0 */
 
 **弹性布局默认不改变项目的宽度，但是它默认改变项目的高度**。**所以如果项目没有显式指定高度，就将占据容器的所有高度，一个最高控件 将会把其他控件也拉伸。**
 
-![](https://img.zssaer.cn/image-20210923170815335.png)
+![](https://zssaer.oss-cn-chengdu.aliyuncs.com/image-20210923170815335.png)
 
 
 
@@ -205,7 +205,7 @@ flex-grow: <number>; /* default 0 */
 
 
 
-![](https://img.zssaer.cn/bg2018101806.png)
+![](https://zssaer.oss-cn-chengdu.aliyuncs.com/bg2018101806.png)
 
 如果项目很多，一个个地设置`align-self`属性就很麻烦。这时，可以在容器元素上设置`align-items`属性，它的值被所有子项目的`align-self`属性继承。
 

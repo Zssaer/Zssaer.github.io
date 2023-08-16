@@ -4,7 +4,7 @@
     tags:
     - JAVA
     categories: JAVA # 分类
-    thumbnail: https://img.zssaer.cn/20210820092900.png # 略缩图 
+    thumbnail: https://zssaer.oss-cn-chengdu.aliyuncs.com/20210820092900.png # 略缩图 
 ---
 
 <h1 align = "center">Nacos-微服务平台框架</h1>
@@ -13,7 +13,7 @@ Nacos英文全称Dynamic Naming and Configuration Service,是**SpringCloud Aliba
 
 其中Na为naming/nameServer即注册中心,co为configuration即注册中心，service是指该注册/配置中心都是以服务为核心。
 
-![](https://img.zssaer.cn/1561217924697-ba504a35-129f-4fc6-b0df-1130b995375a.jpeg)
+![](https://zssaer.oss-cn-chengdu.aliyuncs.com/1561217924697-ba504a35-129f-4fc6-b0df-1130b995375a.jpeg)
 
 对标产品的是Netflix的[Eureka](http://zssaer.cn/2021/08/04/Eureka/)，但与Eureka不同的是，Nacos支持AC、AC两种模式，而且在Eureka2.X后，Eureka不再开源，所以目前使用Nacos更为普遍，在学习Nacos之前建议去了解下Eureka。
 
@@ -23,7 +23,7 @@ Nacos不同于其他产品，推荐在Docker中搭建，而不是外部服务器
 
 ## Nacos基础框架与概念
 
-![](https://img.zssaer.cn/1561217892717-1418fb9b-7faa-4324-87b9-f1740329f564.jpeg)
+![](https://zssaer.oss-cn-chengdu.aliyuncs.com/1561217892717-1418fb9b-7faa-4324-87b9-f1740329f564.jpeg)
 
 **服务注册中心 (Service Registry)**
 
@@ -61,7 +61,7 @@ docker run -d --name nacos -p 8848:8848 -e PREFER_HOST_MODE=hostname -e MODE=sta
 
 打开`http://NacosIP地址:8848/nacos/` 进入Nacos页面：
 
-![](https://img.zssaer.cn/nacosdl.png)
+![](https://zssaer.oss-cn-chengdu.aliyuncs.com/nacosdl.png)
 
 默认用户名密码都为`nacos`。
 
@@ -116,7 +116,7 @@ server:
 
 运行后即可看见服务器：
 
-![](https://img.zssaer.cn/nacos.png)
+![](https://zssaer.oss-cn-chengdu.aliyuncs.com/nacos.png)
 
 具体集群开发和[Eureka集群开发](http://zssaer.cn/2021/08/04/Eureka/)也是一样的。
 
@@ -137,7 +137,7 @@ Java项目一般都会有多个Profile配置，用于区分开发环境，测试
 
 
 
-![](https://img.zssaer.cn/232.png)
+![](https://zssaer.oss-cn-chengdu.aliyuncs.com/232.png)
 
 在使用Nacos配置中心服务时，服务项目中还需要添加Nacos Config的Maven依赖:
 
@@ -251,13 +251,13 @@ spring:
 
 多个服务项目配置文件就非常多,为了区分每个服务项目的配置文件,通常在Nacos上创建配置文件时,创建多个命名空间:
 
-![](https://img.zssaer.cn/mmkj.png)
+![](https://zssaer.oss-cn-chengdu.aliyuncs.com/mmkj.png)
 
 默认不配置命名空间的配置文件就会存储在公共的空间``public``中。
 
 命名空间在配置列表中以上方选项卡进行切换，所以需要切换后在进行配置对于项目的配置文件。
 
-![](https://img.zssaer.cn/mmkjqh.png)
+![](https://zssaer.oss-cn-chengdu.aliyuncs.com/mmkjqh.png)
 
 配置项目主配置中的`namespace`，在项目主配置文件中命名空间ID来进行区分，而不是命名空间名称。
 
@@ -313,7 +313,7 @@ db.password=123456
 
 启动的话直接到bin目录下，执行./startup.sh就可以了，默认就是集群模式，不需要加任何参数。
 
-# 本文Markdown文件在线下载: https://img.zssaer.cn/markdown/Nacos.md
+# 本文Markdown文件在线下载: https://zssaer.oss-cn-chengdu.aliyuncs.com/markdown/Nacos.md
 
 
 

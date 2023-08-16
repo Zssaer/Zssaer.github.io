@@ -4,7 +4,7 @@
     tags:
     - 其他
     categories: 其他 # 分类
-    thumbnail: https://img.zssaer.cn/wallhaven-3kkmxd.jpg?x-oss-process=style/wallpaper # 略缩图
+    thumbnail: https://zssaer.oss-cn-chengdu.aliyuncs.com/wallhaven-3kkmxd.jpg?x-oss-process=style/wallpaper # 略缩图
 ---
 <h1 align = "center">压力测试工具-JMeter</h1>
 
@@ -12,7 +12,7 @@
 
 这儿简绍Apache JMeter -基于Java开发的压力测试工具。
 
-![](https://img.zssaer.cn/8ad4b31c8701a18bc4cdb31613c2b70e2938febd.jpeg)
+![](https://zssaer.oss-cn-chengdu.aliyuncs.com/8ad4b31c8701a18bc4cdb31613c2b70e2938febd.jpeg)
 
 进行Http多线程测试操作:
 
@@ -24,7 +24,7 @@
 
 下载后解压，打开bin\jmeter.bat文件，会弹出二个窗口，一个为Shell，一个为JMeter的GUI应用。
 
-![](https://img.zssaer.cn/20220210103750.png)
+![](https://zssaer.oss-cn-chengdu.aliyuncs.com/20220210103750.png)
 
 ***注意：在Shell上明确的提到了测试，不要使用GUI直接进行正常测试，GUI只是用来创建测试文件和测试Debug的。***
 
@@ -36,7 +36,7 @@
 
 我们先看GUI，JMeter默认为英文界面，但是内置含有简体中文，需要手动切换。通过 【Options】->【Choose Language】变更为简体中文。
 
-![](https://img.zssaer.cn/20210819172921.png)
+![](https://zssaer.oss-cn-chengdu.aliyuncs.com/20210819172921.png)
 
 ## 创建测试
 
@@ -44,39 +44,39 @@
 
 在`测试计划`右击选择添加/线程/线程组
 
-![](https://img.zssaer.cn/20210819173126.png)
+![](https://zssaer.oss-cn-chengdu.aliyuncs.com/20210819173126.png)
 
 线程组右边的线程属性,线程数表示启动多少线程(相当于用户数量),Ramp-UP时间代表隔多长时间执行，0代表同时并发。而循环次数不言而喻就是反复循环测试次数。
 
 设置好后再在`线程组`上右击添加/配置与元件/HTTP请求默认值,来进行配置每个HTTP请求的默认值。
 
-![](https://img.zssaer.cn/20210819173621.png)
+![](https://zssaer.oss-cn-chengdu.aliyuncs.com/20210819173621.png)
 
 之所以使用`HTTP请求的默认值`,就是为了方便大规模接口测试,可以先将Http地址确认下来。
 
 然后再在`HTTP请求的默认值`中设置基本地址和端口:
 
-![](https://img.zssaer.cn/20210819173842.png)
+![](https://zssaer.oss-cn-chengdu.aliyuncs.com/20210819173842.png)
 
 设置好基本值后,然后再在`线程组`上右击选择添加/取样器/HTTP请求,设置测试请求。
 
-![](https://img.zssaer.cn/20210819174009.png)
+![](https://zssaer.oss-cn-chengdu.aliyuncs.com/20210819174009.png)
 
 设置其HTTP请求的需要测试的路径和请求方法。由于我们上面已经设置了HTTP请求的默认值,所以这儿的服务器IP\端口这些都不需要再次填写。
 
-![](https://img.zssaer.cn/20210819174109.png)
+![](https://zssaer.oss-cn-chengdu.aliyuncs.com/20210819174109.png)
 
 如果是POST请求的话，除了使用其参数之外还可以使用Json来进行为载体。
 
 只需要将其切换为“消息体数据”后添加Json：
 
-![image-20220210103037823](https://img.zssaer.cn/image-20220210103037823.png)
+![image-20220210103037823](https://zssaer.oss-cn-chengdu.aliyuncs.com/image-20220210103037823.png)
 
 因为采用Json为请求内容，所以Http请求头就应该新增Json的标识：
 
 在`HTTP请求`上右击,点击添加/配置元件HTTP信息头管理器，用来在请求头部中新增内容，Json的话就应该新增Content-Type:application/json。
 
-![](https://img.zssaer.cn/20220210103216.png)
+![](https://zssaer.oss-cn-chengdu.aliyuncs.com/20220210103216.png)
 
 当然对于需要认证的接口，我们可以在头部添加Token内容。
 
@@ -86,19 +86,19 @@
 
 在`HTTP请求`上右击,点击添加/断言/响应断言,来为该请求测试设置断言,来进行每次测试的判断,判断是否成功还是失败。
 
-![](https://img.zssaer.cn/20210819174353.png)
+![](https://zssaer.oss-cn-chengdu.aliyuncs.com/20210819174353.png)
 
 设置其断言判断,由于网页的请求采取Rest方式,不管是Json还是什么,都是以文本,所以这儿测试字段 设置为`响应文本`,然后再在选择判断条件,以及设置相关判断参数.
 
-![](https://img.zssaer.cn/20210819174543.png)
+![](https://zssaer.oss-cn-chengdu.aliyuncs.com/20210819174543.png)
 
 我们再在`线程组`上右击,点击监听器/察看结果树,来测试返回结果
 
-![](https://img.zssaer.cn/20210819174833.png)
+![](https://zssaer.oss-cn-chengdu.aliyuncs.com/20210819174833.png)
 
 好了,最后点击上方工具栏中的第一个绿色箭头 启动整个测试.最后在`察看结果树`便可以看见结果,由于我们对请求设置了断言,所以其中成功和失败一目了然:
 
-![](https://img.zssaer.cn/20210819175124.png)
+![](https://zssaer.oss-cn-chengdu.aliyuncs.com/20210819175124.png)
 
 我们可以在设置一个汇总报告，用来将其测试数据的测试结果进行明确展示和导出。
 

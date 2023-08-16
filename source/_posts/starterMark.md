@@ -4,7 +4,7 @@
     tags:
     - JAVA
     categories: JAVA # 分类
-    thumbnail: https://img.zssaer.cn/wallhaven-8xpp7k.jpg?x-oss-process=style/wallpaper # 略缩图
+    thumbnail: https://zssaer.oss-cn-chengdu.aliyuncs.com/wallhaven-8xpp7k.jpg?x-oss-process=style/wallpaper # 略缩图
 ---
 # 快速创建一个自定义Spring Boot Starter
 

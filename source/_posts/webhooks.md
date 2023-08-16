@@ -4,7 +4,7 @@
     tags:
     - 其他
     categories: 其他 # 分类
-    thumbnail: https://img.zssaer.cn/wallhaven-zmkplw.png?x-oss-process=style/wallpaper # 略缩图
+    thumbnail: https://zssaer.oss-cn-chengdu.aliyuncs.com/wallhaven-zmkplw.png?x-oss-process=style/wallpaper # 略缩图
 
 ---
 # 利用WebHooks功能实现服务器自动拉取功能
@@ -119,7 +119,7 @@ chown -R Apache2服务器用户名 /var/www/Project # 这里请改成你的需�
 
 打开‘Settings’页面，左侧导航 选择“WebHooks”。点击“Add Webhook”添加WebHook。
 
-![](https://img.zssaer.cn/20220211163125.png)
+![](https://zssaer.oss-cn-chengdu.aliyuncs.com/20220211163125.png)
 
 其中Payload URL输入其 在Nginx中做的反向代理路径，即代理到Pull脚本PHP页面上。由于是采用其简单的Pull操作使用Json为ContentType即可。
 
@@ -145,4 +145,4 @@ SSL认证，代表其是否通过Https加密，根据网站情况而定。
 
 我们可以点开这个webhook来查看其每次触发的状态。
 
-![image-20220211164119940](https://img.zssaer.cn/image-20220211164119940.png)
+![image-20220211164119940](https://zssaer.oss-cn-chengdu.aliyuncs.com/image-20220211164119940.png)

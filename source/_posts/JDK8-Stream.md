@@ -4,7 +4,7 @@
     tags:
     - JAVA
     categories: JAVA # 分类
-    thumbnail: https://img.zssaer.cn/wallhaven-r2mqv7.png?x-oss-process=style/wallpaper # 略缩图
+    thumbnail: https://zssaer.oss-cn-chengdu.aliyuncs.com/wallhaven-r2mqv7.png?x-oss-process=style/wallpaper # 略缩图
 ---
 
 # JDK8-Stream使用
@@ -78,7 +78,7 @@ Stream中文翻译过来叫做流，顾名思义就是以类似于输出方式�
 
 目前常见的*stream*接口继承关系如图：
 
-![](https://img.zssaer.cn/Java_stream_Interfaces.png)
+![](https://zssaer.oss-cn-chengdu.aliyuncs.com/Java_stream_Interfaces.png)
 
 *stream*接口继承自`BaseStream`，其中`IntStream, LongStream, DoubleStream`对应三种基本类型（`int, long, double`，注意不是包装类型），`Stream`对应所有剩余类型的*stream*视图。为不同数据类型设置不同*stream*接口，可以有下好处：1.提高性能，2.增加特定接口函数。
 
@@ -247,7 +247,7 @@ System.out.println(lengthSum);
 
 这里由于Stream中的元素为String类型，而求和结果需要Integer类型，所以我们在使用length获取长度。
 
-它的解析图:![](https://img.zssaer.cn/939998-20170314192657213-1716934165.png)
+它的解析图:![](https://zssaer.oss-cn-chengdu.aliyuncs.com/939998-20170314192657213-1716934165.png)
 
 
 

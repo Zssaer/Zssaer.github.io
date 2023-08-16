@@ -4,7 +4,7 @@
     tags:
     - 其他
     categories: 其他 # 分类
-    thumbnail: https://img.zssaer.cn/wallhaven-2e71py.png?x-oss-process=style/wallpaper # 略缩图
+    thumbnail: https://zssaer.oss-cn-chengdu.aliyuncs.com/wallhaven-2e71py.png?x-oss-process=style/wallpaper # 略缩图
 ---
 
 # IDEA使用技巧总结
@@ -13,7 +13,7 @@
 
 对于某个方法或者某个字段、某个参数，鼠标选中后按`Alt`+`F7`按键就可以查询到引用、使用到该类型的所有地方。
 
-![](https://img.zssaer.cn/20220128100448.png?x-oss-process=style/small)
+![](https://zssaer.oss-cn-chengdu.aliyuncs.com/20220128100448.png?x-oss-process=style/small)
 
 或者选中后按`Ctrl`+`Alt`+`F7`以下拉列表显示，更加方便。
 
@@ -21,7 +21,7 @@
 
 对于全局中，按`Ctrl`+`N`按键，弹出类搜索框，它可以在全局（项目、依赖包）中搜索指定类文件。
 
-![](https://img.zssaer.cn/20220128101340.png?x-oss-process=style/small)
+![](https://zssaer.oss-cn-chengdu.aliyuncs.com/20220128101340.png?x-oss-process=style/small)
 
 
 
@@ -31,7 +31,7 @@
 
  使用`Alt`+`Shift`+`↑`或者`Alt`+`Shift`+`↓`按键 也可以移动行位置，但是没法移动方法位置。
 
-![img](https://img.zssaer.cn/GIF%202022-1-28%2010-28-51.gif)
+![img](https://zssaer.oss-cn-chengdu.aliyuncs.com/GIF%202022-1-28%2010-28-51.gif)
 
 
 
@@ -39,7 +39,7 @@
 
 输入指针位于方法行时 使用`Ctrl`+`Shift`+`Alt`+`↑`或者`Ctrl`+`Shift`+`Alt`+`↓`按键可以移动方法位置，如果输入指针在某个代码行上可以移动行位置。
 
-![img](https://img.zssaer.cn/GIF%202022-1-28%2010-32-03.gif)
+![img](https://zssaer.oss-cn-chengdu.aliyuncs.com/GIF%202022-1-28%2010-32-03.gif)
 
 
 
@@ -51,7 +51,7 @@ IDEA支持创建一个草稿文件来实现一个Demo。使用`Ctrl`+`Shift`+`Al
 
 草稿文件可以进行各种测试。
 
-![](https://img.zssaer.cn/20220128103701.png?x-oss-process=style/small)
+![](https://zssaer.oss-cn-chengdu.aliyuncs.com/20220128103701.png?x-oss-process=style/small)
 
 注意：草稿文件默认存储在`C:\Users\用户名\AppData\Roaming\JetBrains\IntelliJIdea版本号\scratches\`下。
 
@@ -61,13 +61,13 @@ IDEA支持创建一个草稿文件来实现一个Demo。使用`Ctrl`+`Shift`+`Al
 
 对于一些需要修改、添加的变量名、参数名，我们可以选中它使用`Ctrl`+`Shift`+`Alt`+`T`按键，便会弹出一个重构内容下拉栏。
 
-![](https://img.zssaer.cn/20220128104704.png?x-oss-process=style/small)
+![](https://zssaer.oss-cn-chengdu.aliyuncs.com/20220128104704.png?x-oss-process=style/small)
 
 它可以用来重构内容。
 
 对于选中多行后，执行将后将可以看见多出 提取方法功能，它能够将其选中的多行代码提取出去，并且根据选中的内容来智能判断提出的方法 需要什么类型的参数。
 
-![](https://img.zssaer.cn/20220128105132.png?x-oss-process=style/small)
+![](https://zssaer.oss-cn-chengdu.aliyuncs.com/20220128105132.png?x-oss-process=style/small)
 
 
 
@@ -75,7 +75,7 @@ IDEA支持创建一个草稿文件来实现一个Demo。使用`Ctrl`+`Shift`+`Al
 
 IDEA支持注入SpringBean实体到定义方法中，按`Alt`+`Enter`后选中注入语言或引用，在弹出的下拉框中输入“SpringBean名称”，填入SpringBean即可注入。
 
-![](https://img.zssaer.cn/20220128110630.png?x-oss-process=style/small)
+![](https://zssaer.oss-cn-chengdu.aliyuncs.com/20220128110630.png?x-oss-process=style/small)
 
 
 
@@ -83,13 +83,13 @@ IDEA支持注入SpringBean实体到定义方法中，按`Alt`+`Enter`后选中�
 
 按`Ctrl`+`E`可以弹出最近的文件框，右侧为打开过的文件历史。
 
-![](https://img.zssaer.cn/20220128111134.png?x-oss-process=style/small)
+![](https://zssaer.oss-cn-chengdu.aliyuncs.com/20220128111134.png?x-oss-process=style/small)
 
 ## 查询继承结构
 
 对于一些源码我们时长需要查看到对应接口的一些实现类，这时在一个文件下按`Ctrl`+`H`会弹出层次结构,列出所有继承关系。
 
-![](https://img.zssaer.cn/20220128111752.png?x-oss-process=style/small)
+![](https://zssaer.oss-cn-chengdu.aliyuncs.com/20220128111752.png?x-oss-process=style/small)
 
 
 
@@ -97,7 +97,7 @@ IDEA支持注入SpringBean实体到定义方法中，按`Alt`+`Enter`后选中�
 
 IDEA通过正则表达式检查工具。在输入光标处于正则表达式下，按`Alt`+`Enter`后选择"检查正则表达式"，弹出正则表达式测试工具。
 
-![](https://img.zssaer.cn/20220128112459.png?x-oss-process=style/small)
+![](https://zssaer.oss-cn-chengdu.aliyuncs.com/20220128112459.png?x-oss-process=style/small)
 
 
 
@@ -111,19 +111,19 @@ IDEA通过正则表达式检查工具。在输入光标处于正则表达式下�
 
 大多数情况下我们使用Git提交代码会选中右上角的按钮或者上方Git下拉栏中的提交，但在IDEA中按`Alt`+` ` ` 即可打开快速VCS操作栏，它拥有VCS的所有常用的功能。
 
-![](https://img.zssaer.cn/20220128113449.png?x-oss-process=style/small)
+![](https://zssaer.oss-cn-chengdu.aliyuncs.com/20220128113449.png?x-oss-process=style/small)
 
 ## 获取合适的提示模板
 
 忘记了配置的实时模板的缩写，在任意位置下`Ctrl`+`J`将会根据位置 弹出适合的所有实时模板。
 
-![](https://img.zssaer.cn/20220128113814.png?x-oss-process=style/small)
+![](https://zssaer.oss-cn-chengdu.aliyuncs.com/20220128113814.png?x-oss-process=style/small)
 
 ## 剪贴板
 
 IDEA中内置了剪贴板功能，按`Ctrl`+`Shift`+`v`即可打开。
 
-![](https://img.zssaer.cn/20220128114056.png?x-oss-process=style/small)
+![](https://zssaer.oss-cn-chengdu.aliyuncs.com/20220128114056.png?x-oss-process=style/small)
 
 
 

@@ -4,7 +4,7 @@
     tags:
     - JAVA
     categories: JAVA # 分类
-    thumbnail: https://img.zssaer.cn/04186_tokyotower_1920x1080.jpg?x-oss-process=style/wallpaper # 略缩图
+    thumbnail: https://zssaer.oss-cn-chengdu.aliyuncs.com/04186_tokyotower_1920x1080.jpg?x-oss-process=style/wallpaper # 略缩图
 ---
 
 # JAVA-POI-Excel操作教程(Java操作Excel文档)

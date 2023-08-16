@@ -4,7 +4,7 @@
     tags:
     - JAVA
     categories: JAVA # 分类
-    thumbnail: https://img.zssaer.cn/wallhaven-96qlrx.png?x-oss-process=style/wallpaper # 略缩图
+    thumbnail: https://zssaer.oss-cn-chengdu.aliyuncs.com/wallhaven-96qlrx.png?x-oss-process=style/wallpaper # 略缩图
 ---
 
 # SpringCloud微服务配合Swagger
@@ -148,7 +148,7 @@ public class SwaggerConfig implements SwaggerResourcesProvider {
 
 对于后续的模块我们可以依次加入进去即可。
 
-![](https://img.zssaer.cn/20220316135118.png)
+![](https://zssaer.oss-cn-chengdu.aliyuncs.com/20220316135118.png)
 
 页面成功显示了，模块Api也归纳了，看似几乎成功了...
 

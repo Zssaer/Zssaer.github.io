@@ -4,7 +4,7 @@
     tags:
     - JAVA
     categories: JAVA # 分类
-    thumbnail: https://img.zssaer.cn/wallhaven-mdjlxm.png?x-oss-process=style/wallpaper # 略缩图
+    thumbnail: https://zssaer.oss-cn-chengdu.aliyuncs.com/wallhaven-mdjlxm.png?x-oss-process=style/wallpaper # 略缩图
 ---
 
 # Spring Cloud 服务网关 - Gateway
@@ -13,7 +13,7 @@
 
 在为学习服务网关时，我们的微服务请求都通过调用服务消费方来进行：
 
-![](https://img.zssaer.cn/beforeGateWay.png)
+![](https://zssaer.oss-cn-chengdu.aliyuncs.com/beforeGateWay.png)
 
 其中服务间通过Ribbon或Feign来实现服务的消费以及均衡负载,但这样直接对外调用有如下缺点:
 
@@ -52,7 +52,7 @@ Spring Cloud Gateway有如下几个核心概念：
 
 ## 工作原理
 
-![](https://img.zssaer.cn/5-1ZR6093952150.png)
+![](https://zssaer.oss-cn-chengdu.aliyuncs.com/5-1ZR6093952150.png)
 
 整个过程类似于SpringMvc请求过程。
 
@@ -122,11 +122,11 @@ server:
 
 启动服务网关后,在Nacos服务列表中就发现了该服务网关,说明服务网关运行正常。
 
-![](https://img.zssaer.cn/20210823155016.png)
+![](https://zssaer.oss-cn-chengdu.aliyuncs.com/20210823155016.png)
 
 运行正常后,加入 localhost:8200/服务注册名/.. ,如http://localhost:8200/dubbo-service-consumer/test,其将自动路由输出对应服务消费方的内容。
 
-![](https://img.zssaer.cn/20210823160350.png)
+![](https://zssaer.oss-cn-chengdu.aliyuncs.com/20210823160350.png)
 
 有了服务网关后，其客户所有的接口请求均通过服务网关来进行操作，不再使用服务消费方来请求。
 

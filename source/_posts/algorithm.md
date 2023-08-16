@@ -5,7 +5,7 @@
     tags:
     - Algorithm
     categories: 算法 # 分类
-    thumbnail: https://img.zssaer.cn/wallhaven-xljpov.jpg?x-oss-process=style/wallpaper # 略缩图
+    thumbnail: https://zssaer.oss-cn-chengdu.aliyuncs.com/wallhaven-xljpov.jpg?x-oss-process=style/wallpaper # 略缩图
 ---
 # 算法与数据结构(一)
 

@@ -4,7 +4,7 @@
     tags:
     - Algorithm
     categories: 算法 # 分类
-    thumbnail: https://img.zssaer.cn/wallhaven-q2m9z7.jpg?x-oss-process=style/wallpaper # 略缩图
+    thumbnail: https://zssaer.oss-cn-chengdu.aliyuncs.com/wallhaven-q2m9z7.jpg?x-oss-process=style/wallpaper # 略缩图
 ---
 # **算法与数据结构(三)-快速排序详解**
 
@@ -19,7 +19,7 @@
 
 2. 使用左右双指针来进行扫描，左边指针向右扫描，右边指针向左扫描。
 
-   ![](https://img.zssaer.cn/1060770-20171122233213305-812504424.png)
+   ![](https://zssaer.oss-cn-chengdu.aliyuncs.com/1060770-20171122233213305-812504424.png)
 
    (图源来自《啊哈，算法》)
 
@@ -32,19 +32,19 @@
 
 3. 当左右指针扫描都结束时，两个指针停下的地方如果**未相交**的话，那么就交换两指针下的元素。
 
-   ![](https://img.zssaer.cn/1060770-20171122233230696-1718795911.png)
+   ![](https://zssaer.oss-cn-chengdu.aliyuncs.com/1060770-20171122233230696-1718795911.png)
 
    交换之后，会发现两指针又会实现其条件，所以继续执行第二步扫描操作，反复循环。
 
 4. 最终两指针会相交（至于是左指针还是右指针最后移动，这个取决于谁先开始，但和这结果、性能无关）,从而停下。
 
-   ![](https://img.zssaer.cn/1060770-20171122233307336-208181132.png)
+   ![](https://zssaer.oss-cn-chengdu.aliyuncs.com/1060770-20171122233307336-208181132.png)
 
    这时，会发现，数组大致 状态是 ： 基准元素（中间值）+小于中间值的数组+大于中间值的数组。
 
    所以这时我们需要**将其相交的元素与其基准元素 交换**，这样就是 小于中间值的数组+基准元素（中间值）+大于中间值的数组。
 
-   ![](https://img.zssaer.cn/1060770-20171122233327399-371718013.png)
+   ![](https://zssaer.oss-cn-chengdu.aliyuncs.com/1060770-20171122233327399-371718013.png)
 
 5. 对小于中间值的数组，和大于中间值的数组分别 再次执行 1-4步骤。也就是再循环多次操作对两边数组。使用递归即可。
 
@@ -139,7 +139,7 @@ private static void exchange(int[] a, int i, int j) {
 
 快速排序在Java.Util的DualPivotQuicksort.clss类中定义了推荐使用长度为（47-286）之间：
 
-![](https://img.zssaer.cn/20220302170946.png)
+![](https://zssaer.oss-cn-chengdu.aliyuncs.com/20220302170946.png)
 
 DualPivotQuicksort中定义了其排序数组长度在 小于 47时，使用插入排序方式排序，而长度大于286的时候。
 

@@ -4,7 +4,7 @@
     tags:
     - JAVA
     categories: JAVA # 分类
-    thumbnail: https://img.zssaer.cn/anime2.jpg?x-oss-process=style/wallpaper # 略缩图 
+    thumbnail: https://zssaer.oss-cn-chengdu.aliyuncs.com/anime2.jpg?x-oss-process=style/wallpaper # 略缩图 
 ---
 # MBG配合TK.mybatis\freemarker生成SSM框架
 
@@ -18,11 +18,11 @@ TK.Mybatis的基础类提供了生成插件,可以配合MBG生成,再结合freem
 
 而且配合TKMybatis生成的Xml文件非常简洁,没有过多的sql语句.下图对比.
 
-![](https://img.zssaer.cn/commonXML.png)
+![](https://zssaer.oss-cn-chengdu.aliyuncs.com/commonXML.png)
 
 <center>普通MBG生成的XML文件,SQL内容非常多,不容易后续扩展</center>
 
-![](https://img.zssaer.cn/TKXML.png)
+![](https://zssaer.oss-cn-chengdu.aliyuncs.com/TKXML.png)
 
 <center>MBG配合TK生成的XML文件,非常简洁</center>
 

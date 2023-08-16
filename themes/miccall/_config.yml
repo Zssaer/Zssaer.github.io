@@ -6,7 +6,7 @@
 head:
   favicon: "/img/favicon.png"
   keywords: Zssaer JavaWeb TIANYI ZHAO
-  backgroundpic: "https://img.zssaer.cn/wallhaven-r7r551.jpg?x-oss-process=style/wallpaper"
+  backgroundpic: "https://zssaer.oss-cn-chengdu.aliyuncs.com/wallhaven-r7r551.jpg?x-oss-process=style/wallpaper"
 
 Intro:
   name: Zssaer
@@ -39,7 +39,7 @@ Nav:
 MainFirst:
   name: TIANYI ZHAO
   description: KEEP HUNGRY
-  pic_url: "https://img.zssaer.cn/me.jpg?x-oss-process=style/small"
+  pic_url: "https://zssaer.oss-cn-chengdu.aliyuncs.com/me.jpg?x-oss-process=style/small"
   goto_ulr: "/about/"
 
 Gallery:

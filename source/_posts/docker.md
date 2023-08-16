@@ -4,7 +4,7 @@
     tags:
     - 后端
     categories: 后端 # 分类
-    thumbnail: https://img.zssaer.cn/dockerlogo.jpg?x-oss-process=style/wallpaper # 略缩图
+    thumbnail: https://zssaer.oss-cn-chengdu.aliyuncs.com/dockerlogo.jpg?x-oss-process=style/wallpaper # 略缩图
 ---
 
 <h1 align = "center"> Docker入门教程(一)</h1>
@@ -23,7 +23,7 @@
 
 ### 简介
 
-![](https://img.zssaer.cn/docker.jpg)
+![](https://zssaer.oss-cn-chengdu.aliyuncs.com/docker.jpg)
 
 **Docker** 最初是 `dotCloud` 公司创始人 [Solomon Hykes](https://github.com/shykes)在法国期间发起的一个公司内部项目，它是基于 `dotCloud` 公司多年云服务技术的一次革新，并于 [2013 年 3 月以 Apache 2.0 授权协议开源 ](https://en.wikipedia.org/wiki/Docker_(software))，主要项目代码在 [GitHub](https://github.com/moby/moby)上进行维护。`Docker` 项目后来还加入了 Linux 基金会，并成立推动 [开放容器联盟（OCI）](https://opencontainers.org/)。
 
@@ -74,7 +74,7 @@ Docker拥有Linux端、Mac端、Windows端，但主要以Linux端为主，因为
 - **容器**（`Container`）
 - **仓库**（`Repository`）
 
-<img src="https://img.zssaer.cn/docker.png" style="zoom:110%;" />
+<img src="https://zssaer.oss-cn-chengdu.aliyuncs.com/docker.png" style="zoom:110%;" />
 
 #### 镜像
 
@@ -493,7 +493,7 @@ centos/systemd                     systemd enabled base container.              
 
 当然更推荐前往网站上进行搜索,然后直接获取pull地址.
 
-![](https://img.zssaer.cn/dockerhub.png)
+![](https://zssaer.oss-cn-chengdu.aliyuncs.com/dockerhub.png)
 
 用户也可以在登录后通过 `docker push` 命令来将自己的镜像推送到 Docker Hub。
 

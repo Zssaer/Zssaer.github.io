@@ -4,7 +4,7 @@
     tags:
     - Algorithm
     categories: 算法 # 分类
-    thumbnail: https://img.zssaer.cn/wallhaven-6ozovw.jpg?x-oss-process=style/wallpaper # 略缩图
+    thumbnail: https://zssaer.oss-cn-chengdu.aliyuncs.com/wallhaven-6ozovw.jpg?x-oss-process=style/wallpaper # 略缩图
 ---
 # 算法与数据结构(四)-树的定义和类型
 ## 前言
@@ -20,7 +20,7 @@
 - 有且仅有一个特定的节点称为根（Root）的节点
 - 当 n > 1 时，其余节点可分为 m （m > 0）个`互不相交的有限集` T1、T2、........Tm，其中每一个集合本身又是一棵树，并且称为根的子树。
 
-<img src="https://img.zssaer.cn/tree1.png" style="zoom:110%;" />
+<img src="https://zssaer.oss-cn-chengdu.aliyuncs.com/tree1.png" style="zoom:110%;" />
 
 有且仅有一个特定的节点称为**根节点**，也就是上图中的`橙色节点`。
 
@@ -32,7 +32,7 @@
 
 树定义:除根节点以外的节点，所有的子树节点不能相交。
 
-<img src="https://img.zssaer.cn/tree2.png" style="zoom:110%;" />
+<img src="https://zssaer.oss-cn-chengdu.aliyuncs.com/tree2.png" style="zoom:110%;" />
 
 上图中(A) , (B) 符合树的定义，（C）, (D) 不符合，这是因为 (C) , (D) 它们都有相交的子树。
 
@@ -40,7 +40,7 @@
 
 #### 节点类型\节点间的关系
 
-<img src="https://img.zssaer.cn/tree1.png" style="zoom:110%;" />
+<img src="https://zssaer.oss-cn-chengdu.aliyuncs.com/tree1.png" style="zoom:110%;" />
 
 **孩子节点/子节点**:一个节点含有的子树的根节点称为该节点的子节点.
 
@@ -72,7 +72,7 @@
 
 **节点的层次**:见下图,从根开始定义,第一层,第二层...
 
-<img src="https://img.zssaer.cn/tree3.png" style="zoom:150%;" />
+<img src="https://zssaer.oss-cn-chengdu.aliyuncs.com/tree3.png" style="zoom:150%;" />
 
 **堂兄弟节点**:双亲在同一层的节点互为堂兄弟节点.
 
@@ -130,7 +130,7 @@
 
 可以这样理解，除了最后一层，其他层的节点个数都是满的，而且最后一层的叶子节点必须靠左。
 
-<img src="https://img.zssaer.cn/tree5.png" style="zoom: 80%;" />
+<img src="https://zssaer.oss-cn-chengdu.aliyuncs.com/tree5.png" style="zoom: 80%;" />
 
 所以上图中(A）（B）为完全二叉树，（C）（D）不是完全二叉树.
 
@@ -142,7 +142,7 @@
 
 **所以满二叉树也为完全二叉树的一种。**
 
-<img src="https://img.zssaer.cn/tree4.png" style="zoom: 80%;" />
+<img src="https://zssaer.oss-cn-chengdu.aliyuncs.com/tree4.png" style="zoom: 80%;" />
 
 所以上图中只有(B)是满二叉树.
 
@@ -154,7 +154,7 @@
 
 所有的节点只有左子树的称为`左斜树`,所有节点只有右子树的二叉树称为`右斜树`.
 
-<img src="https://img.zssaer.cn/tree6.png" style="zoom: 80%;" />
+<img src="https://zssaer.oss-cn-chengdu.aliyuncs.com/tree6.png" style="zoom: 80%;" />
 
 
 
@@ -166,7 +166,7 @@
 
 红黑树在进行插入和删除操作时通过特定操作保持二叉查找树的平衡，从而获得较高的查找性能，它可以在O(log n)时间内做查找，插入和删除，这里的n 是树中元素的数目。
 
-![](https://img.zssaer.cn/Red-black_tree_example.svg.png)
+![](https://zssaer.oss-cn-chengdu.aliyuncs.com/Red-black_tree_example.svg.png)
 
 红黑树是每个节点都带有*颜色*属性的二叉查找树，颜色为*红色*或*黑色*。
 
@@ -188,7 +188,7 @@
 
 一种对读写操作进行优化的自平衡的二叉查找树，能够保持数据有序，拥有多于两个子树。
 
-![](https://img.zssaer.cn/btree.jpg)
+![](https://zssaer.oss-cn-chengdu.aliyuncs.com/btree.jpg)
 
 首先，B树不要和二叉树混淆，B树是一种自平衡树数据结构。B树适用于读写相对大的数据块的存储系统，例如磁盘。B树减少定位记录时所经历的中间过程，从而加快存取速度。B树这种数据结构可以用来描述外部存储。这种数据结构常被应用在数据库和文件系统的实现上。
 
@@ -202,7 +202,7 @@ B树是一种平衡的多分树，通常我们说m阶的B树，它必须满足�
 
 其中B树中一个节点的子节点数目的最大值，用m表示，假如最大值为10，则为10阶，如图:
 
-![](https://img.zssaer.cn/997909-20190727111522935-981534929.png)
+![](https://zssaer.oss-cn-chengdu.aliyuncs.com/997909-20190727111522935-981534929.png)
 
 所有节点中，节点【13,16,19】拥有的子节点数目最多，四个子节点（灰色节点），所以可以定义上面的图片为4阶B树，现在懂什么是阶了吧
 

@@ -5,13 +5,13 @@
     - Python
     - 后端
     categories: Python # 分类
-    thumbnail: https://img.zssaer.cn/wallhaven-rd819j_1280x720.png?x-oss-process=style/wallpaper # 略缩图 
+    thumbnail: https://zssaer.oss-cn-chengdu.aliyuncs.com/wallhaven-rd819j_1280x720.png?x-oss-process=style/wallpaper # 略缩图 
 ---
 # FastAPI
 
 ## 前言
 
-![](https://img.zssaer.cn/logo-fastApi.png)
+![](https://zssaer.oss-cn-chengdu.aliyuncs.com/logo-fastApi.png)
 
 [FastAPI](https://github.com/tiangolo/fastapi) 是一个用于构建 API 的现代、快速（高性能）的 web 框架，使用 Python 3.6+ 并基于标准的 Python 类型提示。
 
@@ -40,7 +40,7 @@ FastAPI是去年2021年Github上年度最佳新兴框架，目前在GitHub上拥
 
 这里 以项目形式，使用Pycharm IDE来进行学习。创建一个正常的Python项目，在项目中安装FastAPI、uvicorn，其中uvicorn是一个目前流行的异步服务器。
 
-![](https://img.zssaer.cn/20220526165625.png)
+![](https://zssaer.oss-cn-chengdu.aliyuncs.com/20220526165625.png)
 
 随后在项目 `main.py`文件中输入如下内容：
 
@@ -77,7 +77,7 @@ INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
 
 在服务器启动状态下，访问http://127.0.0.1:8000/docs 页面，你将会看到自动生成的交互式 API 文档，它使用Swagger UI形式。
 
-![](https://img.zssaer.cn/index-01-swagger-ui-simple.png)
+![](https://zssaer.oss-cn-chengdu.aliyuncs.com/index-01-swagger-ui-simple.png)
 
 除了Swagger-UI文档之外，FastAPI还内置了ReDoc形式文档，进入http://127.0.0.1:8000/redoc 即可。
 
@@ -703,7 +703,7 @@ from fastapi import status
 @app.post("/items/", response_model=Item, tags=["items"])
 ```
 
-![](https://img.zssaer.cn/20220531.png)
+![](https://zssaer.oss-cn-chengdu.aliyuncs.com/20220531.png)
 
 #### 接口说明
 
@@ -737,7 +737,7 @@ async def create_item(item: Item):
     return item
 ```
 
-![](https://img.zssaer.cn/202205312.png)
+![](https://zssaer.oss-cn-chengdu.aliyuncs.com/202205312.png)
 
 ### Json转换
 
@@ -890,7 +890,7 @@ async def read_items(token: str = Depends(oauth2_scheme)):
 
 这样项目就完成了初步安全加密了，运行后发现：
 
-![](https://img.zssaer.cn/image01.png)
+![](https://zssaer.oss-cn-chengdu.aliyuncs.com/image01.png)
 
 您的*路径操作*上右上角多了一个小锁，您可以单击它，它有一个小授权表格来输入一个`username`和`password`（和其他可选字段），表示用来授权登录操作。
 
@@ -1077,11 +1077,11 @@ async def read_users_me(current_user: User = Depends(get_current_active_user)):
 
 运行项目，点击「Authorize」按钮。在`username`中输入johndoe，`password`中输入`secret`，点击Authorize登录。
 
-![](https://img.zssaer.cn/image04.png)
+![](https://zssaer.oss-cn-chengdu.aliyuncs.com/image04.png)
 
 在系统中进行身份认证后，你将看到：
 
-![](https://img.zssaer.cn/image05.png)
+![](https://zssaer.oss-cn-chengdu.aliyuncs.com/image05.png)
 
 执行 `/users/me` 路径的 `GET` 操作，这时就会返回当前登入的用户信息了。
 
@@ -1286,7 +1286,7 @@ async def get_current_active_user(current_user: User = Depends(get_current_user)
 
 这时，它返回了一个Token对象，其中access_token字段为JWT内容，将其内容用在`/users/me/` 请求头部上，请求头名为“Authenticate”，便成功返回出认证的用户信息，注意 `Authorization` 首部 还需要 以 `Bearer` 开头。
 
-![](https://img.zssaer.cn/image10.png)
+![](https://zssaer.oss-cn-chengdu.aliyuncs.com/image10.png)
 
 
 
@@ -1402,7 +1402,7 @@ app = FastAPI(
 
 最终，接口文档就会是这样：
 
-![](https://img.zssaer.cn/image101.png)
+![](https://zssaer.oss-cn-chengdu.aliyuncs.com/image101.png)
 
 注意你可以在描述内使用 Markdown，例如「login」会显示为粗体（**login**）以及「fancy」会显示为斜体（*fancy*）。
 
@@ -1443,7 +1443,7 @@ async def get_items():
 
 如果你现在查看文档，它们会显示附加的元数据：
 
-![](https://img.zssaer.cn/image102.png)
+![](https://zssaer.oss-cn-chengdu.aliyuncs.com/image102.png)
 
 最开始时，讲到FastAPI将会自动生成两个用户接口文档，分别是SwaggerUI、ReDoc。
 

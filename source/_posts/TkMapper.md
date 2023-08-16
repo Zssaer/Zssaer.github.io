@@ -4,7 +4,7 @@
     tags:
     - JAVA
     categories: JAVA # 分类
-    thumbnail: https://img.zssaer.cn/wallhaven-1ko16g.jpg?x-oss-process=style/wallpaper # 略缩图 
+    thumbnail: https://zssaer.oss-cn-chengdu.aliyuncs.com/wallhaven-1ko16g.jpg?x-oss-process=style/wallpaper # 略缩图 
 ---
 
 # TKMybatis-通用Mapper

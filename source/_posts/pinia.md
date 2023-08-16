@@ -5,11 +5,11 @@
     tags:
     - 前端
     categories: 前端 # 分类
-    thumbnail: https://img.zssaer.cn/wallhaven-28ev39.png?x-oss-process=style/wallpaper # 略缩图
+    thumbnail: https://zssaer.oss-cn-chengdu.aliyuncs.com/wallhaven-28ev39.png?x-oss-process=style/wallpaper # 略缩图
 ---
 # Pinia - 全新的Vue状态管理
 
-![](https://img.zssaer.cn/68747470733a2f2f70696e69612e7675656a732e6f72672f6c6f676f2e737667.svg)
+![](https://zssaer.oss-cn-chengdu.aliyuncs.com/68747470733a2f2f70696e69612e7675656a732e6f72672f6c6f676f2e737667.svg)
 
 ## 前言
 
@@ -19,7 +19,7 @@ Pinia是目前Vue新一代的状态管理器，它除了适用于最新的Vue3�
 
 Pina和Vuex 4是处于同一个开发时间线的项目，但是据官方QA中讲到，Pinia是Vuex的替代品,所以学习Pinia是目前Vue3的热门了。
 
-![](https://img.zssaer.cn/20220427163521.png)
+![](https://zssaer.oss-cn-chengdu.aliyuncs.com/20220427163521.png)
 
 Pinia相较于Vuex，基本也是一样的，同样的state、同样的getters、同样的actions。但是不一样的是vuex中同步异步的操作得分别存储到Mutation、Action，而Pinia中将同步和异步操作的统一归纳到了actions中，简化了类型。
 

@@ -4,7 +4,7 @@
     tags:
     - 其他
     categories: 其他 # 分类
-    thumbnail: https://img.zssaer.cn/wallhaven-y8ekg7.png?x-oss-process=style/wallpaper # 略缩图 
+    thumbnail: https://zssaer.oss-cn-chengdu.aliyuncs.com/wallhaven-y8ekg7.png?x-oss-process=style/wallpaper # 略缩图 
 ---
 
 # MYSQL详解
@@ -120,7 +120,7 @@ TRUNCATE删除所有数据不会影响事务.
 
 **DQL:Data query language -数据查询语言**
 
-<img src="https://img.zssaer.cn/xs.jpg" style="zoom: 41%;" />
+<img src="https://zssaer.oss-cn-chengdu.aliyuncs.com/xs.jpg" style="zoom: 41%;" />
 
 ```mysql
 SELECT * FROM 表名; -- 查询表中所有字段数据
@@ -137,11 +137,11 @@ SELECT DISTINCT 字段 FROM 表名;
 
 ### 联表查询JoinON详解
 
-<img src="https://img.zssaer.cn/join.jpg"/>
+<img src="https://zssaer.oss-cn-chengdu.aliyuncs.com/join.jpg"/>
 
 
 
-<img src="https://img.zssaer.cn/20200117200621435834.png"/>
+<img src="https://zssaer.oss-cn-chengdu.aliyuncs.com/20200117200621435834.png"/>
 
 思路:
 
@@ -182,7 +182,7 @@ ON r.subjectNO=sub.subjectNO
 
 自己的表和自己的表连接, **核心:一张表拆为两条一样的表** 
 
-<img src="https://img.zssaer.cn/3.jpg" style="zoom:50%;" />
+<img src="https://zssaer.oss-cn-chengdu.aliyuncs.com/3.jpg" style="zoom:50%;" />
 
 ```MySQL
 -- 把一张表看出两张一模一样的表
@@ -191,7 +191,7 @@ FROM category AS a,category AS b
 WHERE a.categoryid=b.pid
 ```
 
-<img src="https://img.zssaer.cn/124.jpg" style="zoom:50%;" />
+<img src="https://zssaer.oss-cn-chengdu.aliyuncs.com/124.jpg" style="zoom:50%;" />
 
 
 
@@ -311,7 +311,7 @@ SET autocommit = 1 /* 开启(默认) */
 
 手动处理事务
 
-<img src="https://img.zssaer.cn/transaction.jpg" style="zoom: 33%;" />
+<img src="https://zssaer.oss-cn-chengdu.aliyuncs.com/transaction.jpg" style="zoom: 33%;" />
 
 ​		0.关闭事务自动提交
 

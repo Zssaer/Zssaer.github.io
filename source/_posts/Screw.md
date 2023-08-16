@@ -4,11 +4,11 @@
     tags:
     - JAVA
     categories: JAVA # 分类
-    thumbnail: https://img.zssaer.cn/wolfgang-hasselmann-ChKs2I6tFqU-unsplash.jpg?x-oss-process=style/wallpaper # 略缩图
+    thumbnail: https://zssaer.oss-cn-chengdu.aliyuncs.com/wolfgang-hasselmann-ChKs2I6tFqU-unsplash.jpg?x-oss-process=style/wallpaper # 略缩图
 ---
 # Screw-数据库表结构文档生成工具
 
-![](https://img.zssaer.cn/155335_59a712d2_1407605.png)
+![](https://zssaer.oss-cn-chengdu.aliyuncs.com/155335_59a712d2_1407605.png)
 
 ## 前言
 
@@ -117,4 +117,4 @@ public class ScrewGenerator {
 
 运行上面这个生成器。在其项目中自动生成了一个DirFile文件夹，数据库结构文档即生成在内了，整个过程非常简单。
 
-![image-20220224152123486](https://img.zssaer.cn/image-20220224152123486.png)
+![image-20220224152123486](https://zssaer.oss-cn-chengdu.aliyuncs.com/image-20220224152123486.png)

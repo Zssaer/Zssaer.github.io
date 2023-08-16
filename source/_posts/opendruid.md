@@ -4,7 +4,7 @@
     tags:
     - JAVA
     categories: JAVA # 分类
-    thumbnail: https://img.zssaer.cn/wallhaven-y8keeg.jpg?x-oss-process=style/wallpaper # 略缩图 
+    thumbnail: https://zssaer.oss-cn-chengdu.aliyuncs.com/wallhaven-y8keeg.jpg?x-oss-process=style/wallpaper # 略缩图 
 ---
 # 使用Druid监控SQL运行状态
 
@@ -59,11 +59,11 @@ spring:
 
 启动项目，打开在stat-view-servlet的url-pattern配置下的网页即可打开Druid监控网页。
 
-![](https://img.zssaer.cn/20220215114635.jpg)
+![](https://zssaer.oss-cn-chengdu.aliyuncs.com/20220215114635.jpg)
 
 可以看到页面上数据源、SQL 监控、SQL 防火墙等功能都是一应俱全,可以满足项目日常监控的需要。
 
-![](https://img.zssaer.cn/20220215114707.png)
+![](https://zssaer.oss-cn-chengdu.aliyuncs.com/20220215114707.png)
 
 当然Druid作为开源项目，其监控页面下方含有广告，强迫症患者可以通过拦截其内容来进行去除广告。
 

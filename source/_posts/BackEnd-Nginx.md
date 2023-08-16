@@ -4,7 +4,7 @@
     tags:
     - 其他
     categories: 其他 # 分类
-    thumbnail: https://img.zssaer.cn/wallhaven-72rd8e.jpg?x-oss-process=style/wallpaper # 略缩图
+    thumbnail: https://zssaer.oss-cn-chengdu.aliyuncs.com/wallhaven-72rd8e.jpg?x-oss-process=style/wallpaper # 略缩图
 ---
 
 # 后端服务配置Nginx操作

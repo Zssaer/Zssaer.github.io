@@ -4,13 +4,13 @@
     tags:
     - JAVA
     categories: JAVA # 分类
-    thumbnail: https://img.zssaer.cn/wallhaven-4d71wl.jpg?x-oss-process=style/wallpaper # 略缩图
+    thumbnail: https://zssaer.oss-cn-chengdu.aliyuncs.com/wallhaven-4d71wl.jpg?x-oss-process=style/wallpaper # 略缩图
 ---
 # QuartZ-定时任务调度工具
 
 ## 简介
 
-![](https://img.zssaer.cn/quartz.jpg)
+![](https://zssaer.oss-cn-chengdu.aliyuncs.com/quartz.jpg)
 
 Quartz是一款Java开源定时任务调度项目，Quartz可以用来创建简单或为运行十个，百个，甚至是好几万个Jobs这样复杂的定时任务程序。适合作用于JAVA定时任务中。
 
@@ -34,7 +34,7 @@ Quartz可以借助关系数据库和JDBC作业存储支持集群。
 
 Quartz的结构体系如下：
 
-![](https://img.zssaer.cn/1107379-20210106120720081-661749954.png)
+![](https://zssaer.oss-cn-chengdu.aliyuncs.com/1107379-20210106120720081-661749954.png)
 
 Quartz的重要组成:
 

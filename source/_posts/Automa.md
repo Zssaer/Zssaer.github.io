@@ -4,11 +4,11 @@
     tags:
     - 前端
     categories: 前端 # 分类
-    thumbnail: https://img.zssaer.cn/photo-1587440871875-191322ee64b0.jpg?x-oss-process=style/wallpaper # 略缩图
+    thumbnail: https://zssaer.oss-cn-chengdu.aliyuncs.com/photo-1587440871875-191322ee64b0.jpg?x-oss-process=style/wallpaper # 略缩图
 ---
 # Automa-Web前端自动化可视化工具
 
-![](https://img.zssaer.cn/icon-128.png)
+![](https://zssaer.oss-cn-chengdu.aliyuncs.com/icon-128.png)
 
 Automa是一个开源的前端浏览器自动化Chrome工具，基于Vue框架编写。
 
@@ -22,11 +22,11 @@ Chrome扩展下载地址：https://chrome.google.com/webstore/detail/automa/infp
 
 在Chrome安装完Automa之后，点击右上方的Automa图标，弹出工具栏。
 
-![](https://img.zssaer.cn/20220420150318.png)
+![](https://zssaer.oss-cn-chengdu.aliyuncs.com/20220420150318.png)
 
 点击其中小房子图标进入Automa主界面。默认状态下，界面为英文，最新版本中，可以点击右侧设置图标，设置中文语言。
 
-![](https://img.zssaer.cn/20220420150521.png)
+![](https://zssaer.oss-cn-chengdu.aliyuncs.com/20220420150521.png)
 
 Automa界面中主要有三个大界面，工作流，集合，日志。
 
@@ -38,17 +38,17 @@ Automa界面中主要有三个大界面，工作流，集合，日志。
 
 在工作流界面中，默认拥有两个自带的Demo，可以进行先试着学习。
 
-![](https://img.zssaer.cn/20220420151006.png)
+![](https://zssaer.oss-cn-chengdu.aliyuncs.com/20220420151006.png)
 
 比如我们新建一个工作流`test_baidu_flow`。
 
 创建项目后，会进入到工作流编辑页面，该界面是用于构建自动化流程；左侧区域是操作区域，右侧区域是主流程构建区域
 
-![](https://img.zssaer.cn/20220420151153.png)
+![](https://zssaer.oss-cn-chengdu.aliyuncs.com/20220420151153.png)
 
 在组织任务流前，需要包含了一个「 触发器」组件，它是作为任务的「 启动节点 」，类似Selenium在操作网页前，需要实例化一个操作对象一样，双击它，可以查看到它的具体配置，对于所有的模块都可以这样。默认执行方式为 人工方式。我们也可以去定义任务的触发策略，比如按指定时间、周期性等。
 
-![](https://img.zssaer.cn/20220420151347.png)
+![](https://zssaer.oss-cn-chengdu.aliyuncs.com/20220420151347.png)
 
 自动化任务或者可以理解为自动化“脚本”定义好之后，是直接保存在当前浏览器插件中的，如果怕数据丢失，我们也可以将创建好的自动化任务，导出到外部，**Autom**支持将任务导出成`JSON`、`TXT`格式的文件。
 

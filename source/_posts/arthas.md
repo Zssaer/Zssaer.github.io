@@ -4,14 +4,14 @@
     tags:
     - JAVA
     categories: JAVA # 分类
-    thumbnail: https://img.zssaer.cn/wallhaven-dpg19j.png?x-oss-process=style/wallpaper # 略缩图
+    thumbnail: https://zssaer.oss-cn-chengdu.aliyuncs.com/wallhaven-dpg19j.png?x-oss-process=style/wallpaper # 略缩图
 
 ---
 # Arthas - Java诊断工具
 
 ## 前言
 
-![](https://img.zssaer.cn/arthas.png)
+![](https://zssaer.oss-cn-chengdu.aliyuncs.com/arthas.png)
 
 [Arthas](https://github.com/alibaba/arthas)是Alibaba在Github上开源的Java诊断工具。
 
@@ -72,7 +72,7 @@ $ java -jar arthas-boot.jar
 
 在Attach成功之后，会打印Arthas LOGO。
 
-![](https://img.zssaer.cn/20220207152058.png)
+![](https://zssaer.oss-cn-chengdu.aliyuncs.com/20220207152058.png)
 
 Arthas默认监听的都是本地IP，即127.0.0.1，对于想实现远程监控应用的话，需要加上`--target-ip地址`的参数：
 
@@ -96,7 +96,7 @@ $ java -jar arthas-boot.jar --target-ip
 
 Arthas支持Web连接。启动Arthas后，访问 http://127.0.0.1:8563/，可以通过浏览器来使用Arthas，当然依然是Shell操作，并没有提供UI操作。:sweat:
 
-![](https://img.zssaer.cn/web-console.png)
+![](https://zssaer.oss-cn-chengdu.aliyuncs.com/web-console.png)
 
 
 
@@ -104,7 +104,7 @@ Arthas支持Web连接。启动Arthas后，访问 http://127.0.0.1:8563/，可以
 
 在成功启动Arthas并且监控到了对应的程序后，我们可以使用`dashboard`来进行查看当前系统的实时数据面板。
 
-![](https://img.zssaer.cn/dashboard.png)
+![](https://zssaer.oss-cn-chengdu.aliyuncs.com/dashboard.png)
 
 由于该命令是实时数据，所以会不断的刷新，影响正常观看，可以输入`Q`或者直接Ctrl+C来退出dashboard命令。
 
@@ -171,7 +171,7 @@ $ jad demo.MathGame
 
 它会同时输出其反编译的步骤:
 
-![](https://img.zssaer.cn/20220208142400.png)
+![](https://zssaer.oss-cn-chengdu.aliyuncs.com/20220208142400.png)
 
 当然也可以只输出其反编译的代码：
 
