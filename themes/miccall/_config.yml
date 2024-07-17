@@ -9,8 +9,8 @@ head:
   backgroundpic: "https://zssaer.oss-cn-chengdu.aliyuncs.com/wallhaven-r7r551.jpg?x-oss-process=style/wallpaper"
 
 Intro:
-  name: Zssaer
-  slogan: "Down In The Valley"
+  name: 砕月
+  slogan: "---不用華爲的華爲用戶"
   HeadButton: Refrain
 
 Nav:
@@ -38,13 +38,13 @@ Nav:
 
 MainFirst:
   name: TIANYI ZHAO
-  description: KEEP HUNGRY
+  description: DO NOT "KEEP HUNGRY",DO NOT "STAY FOOLISH"
   pic_url: "https://zssaer.oss-cn-chengdu.aliyuncs.com/me.jpg?x-oss-process=style/small"
   goto_ulr: "/about/"
 
 Gallery:
   title: 图库中心
-  description: 图库图片版权归互联网
+  description: 图库图片版权归互联网，不归我
 
 # ---------------------------------------------------------------
 # Style Settings
