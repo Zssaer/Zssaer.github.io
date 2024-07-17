@@ -735,6 +735,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"define-lazy-prop@npm:^2.0.0":
+  version: 2.0.0
+  resolution: "define-lazy-prop@npm:2.0.0"
+  checksum: 10c0/db6c63864a9d3b7dc9def55d52764968a5af296de87c1b2cc71d8be8142e445208071953649e0386a8cc37cfcf9a2067a47207f1eb9ff250c2a269658fdae422
+  languageName: node
+  linkType: hard
+
 "delayed-stream@npm:~1.0.0":
   version: 1.0.0
   resolution: "delayed-stream@npm:1.0.0"
@@ -1500,19 +1507,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"hexo-server@npm:^2.0.0":
-  version: 2.0.0
-  resolution: "hexo-server@npm:2.0.0"
+"hexo-server@npm:^3.0.0":
+  version: 3.0.0
+  resolution: "hexo-server@npm:3.0.0"
   dependencies:
     bluebird: "npm:^3.5.5"
-    chalk: "npm:^4.0.0"
     compression: "npm:^1.7.4"
     connect: "npm:^3.7.0"
-    mime: "npm:^2.4.3"
+    mime: "npm:^3.0.0"
     morgan: "npm:^1.9.1"
-    open: "npm:^7.0.0"
+    open: "npm:^8.0.9"
+    picocolors: "npm:^1.0.0"
     serve-static: "npm:^1.14.1"
-  checksum: 10c0/b9216c39411367c96fb9c5660e210ec297bd49c790dc93b91854b508c00b1e352db065970f66e2879a75f0fc14cda0f590e7c105b120469837d91f8a658d8e42
+  checksum: 10c0/250788ddc56788c2d395d218e75462ba7ba4f5ea917598889f9533da14220badcc6992b86951ca33b26b6d3e105a4210f59cd48ce87bdfff5af8430e4bf32647
   languageName: node
   linkType: hard
 
@@ -1530,7 +1537,7 @@ __metadata:
     hexo-renderer-ejs: "npm:^1.0.0"
     hexo-renderer-marked: "npm:^4.0.0"
     hexo-renderer-stylus: "npm:^2.0.0"
-    hexo-server: "npm:^2.0.0"
+    hexo-server: "npm:^3.0.0"
     hexo-submit-urls-to-search-engine: "npm:^2.1.0"
     hexo-theme-landscape: "npm:^0.0.3"
     prismjs: "npm:^1.24.1"
@@ -1751,7 +1758,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"is-docker@npm:^2.0.0":
+"is-docker@npm:^2.0.0, is-docker@npm:^2.1.1":
   version: 2.2.1
   resolution: "is-docker@npm:2.2.1"
   bin:
@@ -1818,7 +1825,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"is-wsl@npm:^2.1.1":
+"is-wsl@npm:^2.2.0":
   version: 2.2.0
   resolution: "is-wsl@npm:2.2.0"
   dependencies:
@@ -2087,12 +2094,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"mime@npm:^2.4.3":
-  version: 2.5.2
-  resolution: "mime@npm:2.5.2"
+"mime@npm:^3.0.0":
+  version: 3.0.0
+  resolution: "mime@npm:3.0.0"
   bin:
     mime: cli.js
-  checksum: 10c0/6feb4a221498b25913590c6d6b2e980d519b57a6fc07849be3b8ee507a8980211e11b371d2d53d92dd883e46e699cd6f7712e7d71743f036adb5b0a8ea3005d5
+  checksum: 10c0/402e792a8df1b2cc41cb77f0dcc46472b7944b7ec29cb5bbcd398624b6b97096728f1239766d3fdeb20551dd8d94738344c195a6ea10c4f906eb0356323b0531
   languageName: node
   linkType: hard
 
@@ -2426,13 +2433,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"open@npm:^7.0.0":
-  version: 7.4.2
-  resolution: "open@npm:7.4.2"
+"open@npm:^8.0.9":
+  version: 8.4.2
+  resolution: "open@npm:8.4.2"
   dependencies:
-    is-docker: "npm:^2.0.0"
-    is-wsl: "npm:^2.1.1"
-  checksum: 10c0/77573a6a68f7364f3a19a4c80492712720746b63680ee304555112605ead196afe91052bd3c3d165efdf4e9d04d255e87de0d0a77acec11ef47fd5261251813f
+    define-lazy-prop: "npm:^2.0.0"
+    is-docker: "npm:^2.1.1"
+    is-wsl: "npm:^2.2.0"
+  checksum: 10c0/bb6b3a58401dacdb0aad14360626faf3fb7fba4b77816b373495988b724fb48941cad80c1b65d62bb31a17609b2cd91c41a181602caea597ca80dfbcc27e84c9
   languageName: node
   linkType: hard
 
@@ -2504,6 +2512,13 @@ __metadata:
   version: 2.1.0
   resolution: "performance-now@npm:2.1.0"
   checksum: 10c0/22c54de06f269e29f640e0e075207af57de5052a3d15e360c09b9a8663f393f6f45902006c1e71aa8a5a1cdfb1a47fe268826f8496d6425c362f00f5bc3e85d9
+  languageName: node
+  linkType: hard
+
+"picocolors@npm:^1.0.0":
+  version: 1.0.1
+  resolution: "picocolors@npm:1.0.1"
+  checksum: 10c0/c63cdad2bf812ef0d66c8db29583802355d4ca67b9285d846f390cc15c2f6ccb94e8cb7eb6a6e97fc5990a6d3ad4ae42d86c84d3146e667c739a4234ed50d400
   languageName: node
   linkType: hard
 
