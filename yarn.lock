@@ -1418,12 +1418,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"hexo-generator-category@npm:^1.0.0":
-  version: 1.0.0
-  resolution: "hexo-generator-category@npm:1.0.0"
+"hexo-generator-category@npm:^2.0.0":
+  version: 2.0.0
+  resolution: "hexo-generator-category@npm:2.0.0"
   dependencies:
-    hexo-pagination: "npm:1.0.0"
-  checksum: 10c0/78d9f25e8683e35797a9b5c6060df6f9517c7cecde58fdf7284b03fd00eb8460f385dc7e000f3a90df3e440e4596b7beaa8100e8d3b080e28f74de4acc2e8fbe
+    hexo-pagination: "npm:3.0.0"
+  checksum: 10c0/1b238d556f595056d2086fcfa0884fb0868d1c4df2cb3e68bfd8d7a955f67f23abc08deace84b6a2099d146a81cfdfd6bc7040334e5a1b26d40dc0280c59b9b7
   languageName: node
   linkType: hard
 
@@ -1468,6 +1468,13 @@ __metadata:
   version: 1.0.0
   resolution: "hexo-pagination@npm:1.0.0"
   checksum: 10c0/01021e018d020e9a61d381cc581364ee07e854633ee9df765e25e5f97871cb870d3c3e51993c1b6dc3f813aedeee1d1b36ba59c4d379b42bc4b4c0ceaba4701e
+  languageName: node
+  linkType: hard
+
+"hexo-pagination@npm:3.0.0":
+  version: 3.0.0
+  resolution: "hexo-pagination@npm:3.0.0"
+  checksum: 10c0/4a58689da8cd69da85153eddc2202df237b2734c0fe03b9f7104ec450b5f30fd7bcea8dd80fbc25924b44aee54efbc07b842f64b8b67285d45ed0bf3a9cfb473
   languageName: node
   linkType: hard
 
@@ -1524,7 +1531,7 @@ __metadata:
     hexo-bilibili-bangumi: "npm:^1.6.0"
     hexo-deployer-git: "npm:^3.0.0"
     hexo-generator-archive: "npm:^1.0.0"
-    hexo-generator-category: "npm:^1.0.0"
+    hexo-generator-category: "npm:^2.0.0"
     hexo-generator-index: "npm:^2.0.0"
     hexo-generator-tag: "npm:^1.0.0"
     hexo-renderer-ejs: "npm:^1.0.0"
